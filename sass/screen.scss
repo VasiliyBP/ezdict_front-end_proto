@@ -73,7 +73,7 @@ header{
 .search-wrapper{
   margin-left:2.666666666666667% ;
   width: 53.33333333333333%;
-  float: left;
+  float: right;
   color: white;
   text-align: right ;
 }
@@ -296,6 +296,14 @@ header{
     
   }
 	
-	
+	.logo{
+  
+  width: 100%;
+}
+.search-wrapper{
+  
+  width: 100%;
+ 
+}
 
 }

@@ -203,7 +203,7 @@ header :-ms-input-placeholder {
 .search-wrapper {
   margin-left: 2.66667%;
   width: 53.33333333333333%;
-  float: left;
+  float: right;
   color: white;
   text-align: right;
 }
@@ -508,6 +508,16 @@ header :-ms-input-placeholder {
 
   /* line 293, ../sass/screen.scss */
   .author-text {
+    width: 100%;
+  }
+
+  /* line 299, ../sass/screen.scss */
+  .logo {
+    width: 100%;
+  }
+
+  /* line 303, ../sass/screen.scss */
+  .search-wrapper {
     width: 100%;
   }
 }
