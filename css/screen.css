@@ -75,42 +75,57 @@ html, body {
   font-family: sans-serif;
 }
 
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
+b, strong {
+  font-weight: 700;
+}
+
+/* line 18, ../sass/screen.scss */
+i, em {
+  font-style: italic;
+}
+
+/* line 19, ../sass/screen.scss */
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
+/* line 20, ../sass/screen.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 21, ../sass/screen.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 h5 {
   font-size: 14px;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 25, ../sass/screen.scss */
 h6 {
   font-size: 12px;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 27, ../sass/screen.scss */
 img {
   max-width: 100%;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 30, ../sass/screen.scss */
 .login-logo-wrapp {
   *zoom: 1;
 }
@@ -121,7 +136,7 @@ img {
   clear: both;
 }
 
-/* line 28, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
 .header-pattern {
   *zoom: 1;
   background: url("../img/header_pattern4.gif") center center;
@@ -133,7 +148,7 @@ img {
   clear: both;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 37, ../sass/screen.scss */
 .header-container {
   position: relative;
   width: 100%;
@@ -141,50 +156,50 @@ img {
   margin: 0 auto;
 }
 
-/* line 38, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 header {
   max-width: 890px;
   /*51.02040816326531%;*/
   margin: 0 auto 20px;
   padding-top: 15px;
 }
-/* line 44, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 header ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #fff;
 }
-/* line 47, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 header :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #fff;
   opacity: 1;
 }
-/* line 51, ../sass/screen.scss */
+/* line 56, ../sass/screen.scss */
 header ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #fff;
   opacity: 1;
 }
-/* line 55, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 header :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #fff;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 .logo {
   vertical-align: bottom;
   width: 44%;
   float: left;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .login-btns {
   margin-top: -5px;
   margin-bottom: 10px;
 }
 
-/* line 68, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .search-wrapper {
   margin-left: 2.66667%;
   width: 53.33333333333333%;
@@ -193,12 +208,12 @@ header :-ms-input-placeholder {
   text-align: right;
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .search-wrapper, .search-form {
   color: white;
 }
 
-/* line 78, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
 .search-form {
   font-size: 16px;
   font-style: italic;
@@ -215,26 +230,26 @@ header :-ms-input-placeholder {
   padding-left: 30px;
 }
 
-/* line 93, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .appeal {
   color: white;
 }
-/* line 95, ../sass/screen.scss */
+/* line 100, ../sass/screen.scss */
 .appeal p {
   margin: 1em 0;
   font-size: 25px;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 .carousel-wrapp {
-  min-height: 525px;
+  min-height: 495px;
   margin: 0 auto;
   padding-bottom: 30px;
   position: relative;
   background: url("../img/book2237cc.png") no-repeat bottom center;
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 112, ../sass/screen.scss */
 .text-wrapper {
   position: relative;
   color: white;
@@ -242,7 +257,7 @@ header :-ms-input-placeholder {
   /*51.02040816326531% ;*/
   background: rgba(55, 27, 23, 0.2);
   margin: 0 auto;
-  padding: 30px 4% 130px;
+  padding: 30px 4% 140px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -252,25 +267,31 @@ header :-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 116, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .text-wrapper h3 {
   font-family: 'times new roman';
   text-align: center;
 }
 
-/* line 121, ../sass/screen.scss */
-.excerption {
+/* line 126, ../sass/screen.scss */
+.excerption-wrapp {
   margin-top: 30px;
   *zoom: 1;
 }
 /* line 38, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.excerption:after {
+.excerption-wrapp:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 125, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
+.excerption {
+  line-height: 18px;
+  text-shadow: 0 0 20px black, 0 0 30px black;
+}
+
+/* line 134, ../sass/screen.scss */
 .author-photo {
   font-size: 100%;
   width: 30%;
@@ -281,7 +302,7 @@ header :-ms-input-placeholder {
   box-sizing: border-box;
 }
 
-/* line 133, ../sass/screen.scss */
+/* line 142, ../sass/screen.scss */
 .author-text {
   font-size: 16px;
   width: 70%;
@@ -290,22 +311,22 @@ header :-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 138, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 .author-text p {
   margin-top: 30px;
 }
 
-/* line 142, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 .reg-btn {
-  width: 315px;
+  max-width: 315px;
   position: absolute;
-  bottom: 20px;
+  bottom: 30px;
   left: 0;
   right: 0;
   margin: 0 auto;
   text-align: center;
 }
-/* line 150, ../sass/screen.scss */
+/* line 159, ../sass/screen.scss */
 .reg-btn button {
   font-size: 24px;
   color: white;
@@ -313,18 +334,27 @@ header :-ms-input-placeholder {
   height: 90px;
   background: rgba(7, 78, 114, 0.65);
   border: none;
-  -webkit-box-shadow: black 0 0 20px;
-  -moz-box-shadow: black 0 0 20px;
-  box-shadow: black 0 0 20px;
+  -webkit-box-shadow: black 0 0 30px;
+  -moz-box-shadow: black 0 0 30px;
+  box-shadow: black 0 0 30px;
+}
+/* line 167, ../sass/screen.scss */
+.reg-btn button:hover {
+  cursor: pointer;
+  background: rgba(7, 78, 114, 0.9);
+}
+/* line 171, ../sass/screen.scss */
+.reg-btn button:active {
+  background: rgba(42, 157, 214, 0.8);
 }
 
-/* line 161, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 .layout {
   max-width: 1470px;
   margin: 0 auto;
 }
 
-/* line 165, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 .promo {
   margin: 20px 0;
   *zoom: 1;
@@ -336,7 +366,7 @@ header :-ms-input-placeholder {
   clear: both;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .promo-item {
   width: 31.97278911564626%;
   height: 230px;
@@ -345,29 +375,29 @@ header :-ms-input-placeholder {
   background: gray;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 191, ../sass/screen.scss */
 .first {
   background: #74b2e5;
 }
 
-/* line 179, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 .second {
   background: #709bbe;
 }
 
-/* line 182, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 .third {
   background: #109927;
 }
 
-/* line 185, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .UC-inner {
   clear: both;
   margin-top: 20px;
   overflow: hidden;
 }
 
-/* line 190, ../sass/screen.scss */
+/* line 205, ../sass/screen.scss */
 .youtube-wrap {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -376,7 +406,7 @@ header :-ms-input-placeholder {
   background: #8EAAB4;
 }
 
-/* line 197, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .popular-new-content {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -384,14 +414,14 @@ header :-ms-input-placeholder {
   width: 60.54421768707483%;
 }
 
-/* line 203, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .pop-new-header {
   height: 70px;
   background: #258ea1;
   margin-bottom: 15px;
 }
 
-/* line 208, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 .pop-new-col-1 {
   width: 44.9438202247191%;
   margin-right: 2.247191011235955%;
@@ -400,7 +430,7 @@ header :-ms-input-placeholder {
   float: left;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .pop-new-col-2 {
   height: 470px;
   width: 52.80898876404494%;
@@ -410,29 +440,29 @@ header :-ms-input-placeholder {
 
 /*media quaeries*/
 @media only screen and (max-width: 1050px) {
-  /* line 225, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   .text-wrapper {
     width: 95%;
   }
 
-  /* line 228, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 235, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   .first {
     width: 48.6394557823%;
   }
 
-  /* line 238, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   .second {
     width: 48.6394557823%;
   }
 
-  /* line 241, ../sass/screen.scss */
+  /* line 256, ../sass/screen.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
@@ -440,33 +470,44 @@ header :-ms-input-placeholder {
 
   /*end-promo*/
   /*news*/
-  /* line 248, ../sass/screen.scss */
+  /* line 263, ../sass/screen.scss */
   .popular-new-content {
     margin-top: 15px;
     width: 98.63945578231293%;
   }
 
-  /* line 252, ../sass/screen.scss */
+  /* line 267, ../sass/screen.scss */
   .youtube-wrap {
     width: 98.63945578231293%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 258, ../sass/screen.scss */
+  /* line 273, ../sass/screen.scss */
   .first {
     width: 98.63945578231293%;
     margin-top: 15px;
   }
 
-  /* line 262, ../sass/screen.scss */
+  /* line 277, ../sass/screen.scss */
   .second {
     width: 98.63945578231293%;
     margin-top: 5px;
   }
 
-  /* line 266, ../sass/screen.scss */
+  /* line 281, ../sass/screen.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
+  }
+
+  /* line 287, ../sass/screen.scss */
+  .author-photo {
+    text-align: center;
+    width: 100%;
+  }
+
+  /* line 293, ../sass/screen.scss */
+  .author-text {
+    width: 100%;
   }
 }
