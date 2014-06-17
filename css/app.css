@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,50 +24,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 10, ../sass/screen.scss */
+/* line 10, D:/work/ezdict_front-end_proto/sass/app.scss */
 html, body {
   background: #e5eef2;
   margin: 0;
@@ -75,80 +75,80 @@ html, body {
   font-family: sans-serif;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 17, D:/work/ezdict_front-end_proto/sass/app.scss */
 b, strong {
   font-weight: 700;
 }
 
-/* line 18, ../sass/screen.scss */
+/* line 18, D:/work/ezdict_front-end_proto/sass/app.scss */
 i, em {
   font-style: italic;
 }
 
-/* line 19, ../sass/screen.scss */
+/* line 19, D:/work/ezdict_front-end_proto/sass/app.scss */
 h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 20, D:/work/ezdict_front-end_proto/sass/app.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 21, D:/work/ezdict_front-end_proto/sass/app.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 22, ../sass/screen.scss */
+/* line 22, D:/work/ezdict_front-end_proto/sass/app.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 23, D:/work/ezdict_front-end_proto/sass/app.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 24, D:/work/ezdict_front-end_proto/sass/app.scss */
 h5 {
   font-size: 14px;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 25, D:/work/ezdict_front-end_proto/sass/app.scss */
 h6 {
   font-size: 12px;
 }
 
-/* line 27, ../sass/screen.scss */
+/* line 27, D:/work/ezdict_front-end_proto/sass/app.scss */
 img {
   max-width: 100%;
 }
 
-/* line 30, ../sass/screen.scss */
-.login-logo-wrapp {
+/* line 30, D:/work/ezdict_front-end_proto/sass/app.scss */
+.login-logo-wrap {
   *zoom: 1;
 }
-/* line 38, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.login-logo-wrapp:after {
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.login-logo-wrap:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 33, D:/work/ezdict_front-end_proto/sass/app.scss */
 .header-pattern {
   *zoom: 1;
   background: url("../img/header_pattern4.gif") center center;
 }
-/* line 38, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .header-pattern:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 38, D:/work/ezdict_front-end_proto/sass/app.scss */
 .header-container {
   position: relative;
   width: 100%;
@@ -156,51 +156,72 @@ img {
   margin: 0 auto;
 }
 
-/* line 43, ../sass/screen.scss */
+/* line 44, D:/work/ezdict_front-end_proto/sass/app.scss */
 header {
   max-width: 890px;
   /*51.02040816326531%;*/
   margin: 0 auto 20px;
   padding-top: 15px;
 }
-/* line 49, ../sass/screen.scss */
+/* line 48, D:/work/ezdict_front-end_proto/sass/app.scss */
 header ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: #fff;
 }
-/* line 52, ../sass/screen.scss */
+/* line 52, D:/work/ezdict_front-end_proto/sass/app.scss */
 header :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: #fff;
   opacity: 1;
 }
-/* line 56, ../sass/screen.scss */
+/* line 56, D:/work/ezdict_front-end_proto/sass/app.scss */
 header ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: #fff;
   opacity: 1;
 }
-/* line 60, ../sass/screen.scss */
+/* line 60, D:/work/ezdict_front-end_proto/sass/app.scss */
 header :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: #fff;
 }
+/* line 63, D:/work/ezdict_front-end_proto/sass/app.scss */
+header input:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 64, D:/work/ezdict_front-end_proto/sass/app.scss */
+header input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 65, D:/work/ezdict_front-end_proto/sass/app.scss */
+header input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 66, D:/work/ezdict_front-end_proto/sass/app.scss */
+header input:focus:-ms-input-placeholder {
+  color: transparent;
+}
 
-/* line 64, ../sass/screen.scss */
-.logo {
+/* line 68, D:/work/ezdict_front-end_proto/sass/app.scss */
+.logo-wrap {
   vertical-align: bottom;
   width: 44%;
   float: left;
 }
 
-/* line 69, ../sass/screen.scss */
-.login-btns {
+/* line 73, D:/work/ezdict_front-end_proto/sass/app.scss */
+.login-btn {
   margin-top: -5px;
   margin-bottom: 10px;
+  font-weight: bold;
+}
+/* line 77, D:/work/ezdict_front-end_proto/sass/app.scss */
+.login-btn span {
+  cursor: pointer;
 }
 
-/* line 73, ../sass/screen.scss */
-.search-wrapper {
+/* line 81, D:/work/ezdict_front-end_proto/sass/app.scss */
+.search-login-wrap {
   margin-left: 2.66667%;
   width: 53.33333333333333%;
   float: right;
@@ -208,13 +229,9 @@ header :-ms-input-placeholder {
   text-align: right;
 }
 
-/* line 80, ../sass/screen.scss */
-.search-wrapper, .search-form {
-  color: white;
-}
-
-/* line 83, ../sass/screen.scss */
+/* line 89, D:/work/ezdict_front-end_proto/sass/app.scss */
 .search-form {
+  color: white;
   font-size: 16px;
   font-style: italic;
   width: 100%;
@@ -223,6 +240,8 @@ header :-ms-input-placeholder {
   border: 2px solid white;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -230,17 +249,17 @@ header :-ms-input-placeholder {
   padding-left: 30px;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 101, D:/work/ezdict_front-end_proto/sass/app.scss */
 .appeal {
   color: white;
 }
-/* line 100, ../sass/screen.scss */
+/* line 103, D:/work/ezdict_front-end_proto/sass/app.scss */
 .appeal p {
   margin: 1em 0;
   font-size: 25px;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 108, D:/work/ezdict_front-end_proto/sass/app.scss */
 .carousel-wrapp {
   min-height: 495px;
   margin: 0 auto;
@@ -249,7 +268,7 @@ header :-ms-input-placeholder {
   background: url("../img/book2237cc.png") no-repeat bottom center;
 }
 
-/* line 112, ../sass/screen.scss */
+/* line 115, D:/work/ezdict_front-end_proto/sass/app.scss */
 .text-wrapper {
   position: relative;
   color: white;
@@ -267,31 +286,31 @@ header :-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 121, ../sass/screen.scss */
+/* line 124, D:/work/ezdict_front-end_proto/sass/app.scss */
 .text-wrapper h3 {
   font-family: 'times new roman';
   text-align: center;
 }
 
-/* line 126, ../sass/screen.scss */
+/* line 129, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption-wrapp {
   margin-top: 30px;
   *zoom: 1;
 }
-/* line 38, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .excerption-wrapp:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 130, ../sass/screen.scss */
+/* line 133, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption {
   line-height: 18px;
   text-shadow: 0 0 20px black, 0 0 30px black;
 }
 
-/* line 134, ../sass/screen.scss */
+/* line 137, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-photo {
   font-size: 100%;
   width: 30%;
@@ -302,7 +321,7 @@ header :-ms-input-placeholder {
   box-sizing: border-box;
 }
 
-/* line 142, ../sass/screen.scss */
+/* line 145, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-text {
   font-size: 16px;
   width: 70%;
@@ -311,13 +330,14 @@ header :-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 147, ../sass/screen.scss */
+/* line 150, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-text p {
   margin-top: 30px;
 }
 
-/* line 151, ../sass/screen.scss */
+/* line 154, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn {
+  width: 315px;
   max-width: 315px;
   position: absolute;
   bottom: 30px;
@@ -326,7 +346,7 @@ header :-ms-input-placeholder {
   margin: 0 auto;
   text-align: center;
 }
-/* line 159, ../sass/screen.scss */
+/* line 163, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button {
   font-size: 24px;
   color: white;
@@ -338,66 +358,65 @@ header :-ms-input-placeholder {
   -moz-box-shadow: black 0 0 30px;
   box-shadow: black 0 0 30px;
 }
-/* line 167, ../sass/screen.scss */
+/* line 171, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button:hover {
   cursor: pointer;
   background: rgba(7, 78, 114, 0.9);
 }
-/* line 171, ../sass/screen.scss */
+/* line 175, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button:active {
   background: rgba(42, 157, 214, 0.8);
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 180, D:/work/ezdict_front-end_proto/sass/app.scss */
 .layout {
   max-width: 1470px;
   margin: 0 auto;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 184, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo {
   margin: 20px 0;
   *zoom: 1;
 }
-/* line 38, ../../../Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .promo:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 188, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item {
   width: 31.97278911564626%;
   height: 230px;
   margin: 15px 0.6802721088435374%;
   float: left;
-  background: gray;
 }
 
-/* line 191, ../sass/screen.scss */
+/* line 194, D:/work/ezdict_front-end_proto/sass/app.scss */
 .first {
   background: #74b2e5;
 }
 
-/* line 194, ../sass/screen.scss */
+/* line 197, D:/work/ezdict_front-end_proto/sass/app.scss */
 .second {
   background: #709bbe;
 }
 
-/* line 197, ../sass/screen.scss */
+/* line 200, D:/work/ezdict_front-end_proto/sass/app.scss */
 .third {
   background: #109927;
 }
 
-/* line 200, ../sass/screen.scss */
+/* line 203, D:/work/ezdict_front-end_proto/sass/app.scss */
 .UC-inner {
   clear: both;
   margin-top: 20px;
   overflow: hidden;
 }
 
-/* line 205, ../sass/screen.scss */
+/* line 208, D:/work/ezdict_front-end_proto/sass/app.scss */
 .youtube-wrap {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -406,7 +425,7 @@ header :-ms-input-placeholder {
   background: #8EAAB4;
 }
 
-/* line 212, ../sass/screen.scss */
+/* line 215, D:/work/ezdict_front-end_proto/sass/app.scss */
 .popular-new-content {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -414,14 +433,14 @@ header :-ms-input-placeholder {
   width: 60.54421768707483%;
 }
 
-/* line 218, ../sass/screen.scss */
+/* line 221, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header {
   height: 70px;
   background: #258ea1;
   margin-bottom: 15px;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 226, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-1 {
   width: 44.9438202247191%;
   margin-right: 2.247191011235955%;
@@ -430,7 +449,7 @@ header :-ms-input-placeholder {
   float: left;
 }
 
-/* line 230, ../sass/screen.scss */
+/* line 233, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-2 {
   height: 470px;
   width: 52.80898876404494%;
@@ -440,29 +459,29 @@ header :-ms-input-placeholder {
 
 /*media quaeries*/
 @media only screen and (max-width: 1050px) {
-  /* line 240, ../sass/screen.scss */
+  /* line 243, D:/work/ezdict_front-end_proto/sass/app.scss */
   .text-wrapper {
     width: 95%;
   }
 
-  /* line 243, ../sass/screen.scss */
+  /* line 246, D:/work/ezdict_front-end_proto/sass/app.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 250, ../sass/screen.scss */
+  /* line 253, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 48.6394557823%;
   }
 
-  /* line 253, ../sass/screen.scss */
+  /* line 256, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 48.6394557823%;
   }
 
-  /* line 256, ../sass/screen.scss */
+  /* line 259, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
@@ -470,54 +489,60 @@ header :-ms-input-placeholder {
 
   /*end-promo*/
   /*news*/
-  /* line 263, ../sass/screen.scss */
+  /* line 266, D:/work/ezdict_front-end_proto/sass/app.scss */
   .popular-new-content {
     margin-top: 15px;
     width: 98.63945578231293%;
   }
 
-  /* line 267, ../sass/screen.scss */
+  /* line 270, D:/work/ezdict_front-end_proto/sass/app.scss */
   .youtube-wrap {
     width: 98.63945578231293%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 273, ../sass/screen.scss */
+  /* line 276, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 98.63945578231293%;
     margin-top: 15px;
   }
 
-  /* line 277, ../sass/screen.scss */
+  /* line 280, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 98.63945578231293%;
     margin-top: 5px;
   }
 
-  /* line 281, ../sass/screen.scss */
+  /* line 284, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
   }
 
-  /* line 287, ../sass/screen.scss */
+  /* line 288, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-photo {
     text-align: center;
     width: 100%;
   }
 
-  /* line 293, ../sass/screen.scss */
+  /* line 292, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-text {
     width: 100%;
   }
 
-  /* line 299, ../sass/screen.scss */
-  .logo {
+  /* line 295, D:/work/ezdict_front-end_proto/sass/app.scss */
+  .logo-wrap {
+    text-align: center;
     width: 100%;
   }
 
-  /* line 303, ../sass/screen.scss */
-  .search-wrapper {
+  /* line 299, D:/work/ezdict_front-end_proto/sass/app.scss */
+  .search-login-wrap {
+    width: 100%;
+  }
+
+  /* line 302, D:/work/ezdict_front-end_proto/sass/app.scss */
+  .reg-btn {
     width: 100%;
   }
 }

@@ -3,3 +3,7 @@
  * <!--[if IE]>
  *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
  * <![endif]--> */
+/* line 6, D:/work/ezdict_front-end_proto/sass/ie.scss */
+.reg-btn {
+  width: 315px;
+}
