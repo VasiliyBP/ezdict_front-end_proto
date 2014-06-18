@@ -190,18 +190,20 @@ header{
   width:31.97278911564626%;
   min-height: 230px;
   margin: 15px 0.6802721088435374%;
-  padding: 30px 20px;
+  padding: 30px 1.360544217687075%;
   float: left;
   @include box-sizing(border-box);
-  @include pie-clearfix;
   p {
-    margin-top: 15px;
+    margin: 15px auto 0 auto;
+    width: 95%;
     font-size: 20px;
     clear: both;
   }
-  h2 {
-    padding-top: 10px;
-    padding-left: 110px;
+  table {
+    margin: 0 auto;
+  }
+  td{
+    padding: 0 10px;
   }
 }
 .first{
@@ -212,24 +214,19 @@ header{
 }
 .third {
   background: #109927;
-  h2 {
-    padding-left: 90px;
-  }
 }
 .promo-img{
   width: 85px;
   height: 78px;
   background: url(../img/promo-nav.png) no-repeat;
-  
-  margin: 0 25px 25px 0;
-  @include float(left);
+  vertical-align: middle;
 }
 .diagramm {
   background-position: -85px 0;
 } 
 .dollar {
-  margin-right: 0;
-  background-position: -170px 0;
+  width: 50px;
+  background-position: -180px 0;
 
 }
 .UC-inner {
@@ -272,10 +269,11 @@ header{
 /*media quaeries*/
 
 @media only screen and (max-width: 1050px) {
-  .text-wrapper{
+
+  .text-wrap{
     width: 95% ;
   }
-  header {
+  header,  {
     width: 95% ;
   }
 }
