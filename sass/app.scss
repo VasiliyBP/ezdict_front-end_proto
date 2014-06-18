@@ -105,14 +105,14 @@ header{
     font-size: 25px;
   }
 }
-.carousel-wrapp {
+.carousel-wrap {
   min-height:495px;
   margin:0 auto;
   padding-bottom: 30px;
   position: relative;
   background: url('../img/book2237cc.png') no-repeat bottom center;
 }
-.text-wrapper{
+.text-wrap{
   position: relative;
   color: white;
   max-width: 890px ; /*51.02040816326531% ;*/
@@ -126,7 +126,7 @@ header{
     text-align: center;
   }
 }
-  .excerption-wrapp{
+  .excerption-wrap{
     margin-top: 30px;
     @include pie-clearfix;
   }
@@ -181,15 +181,28 @@ header{
   max-width: 1470px;
   margin: 0 auto ;
 }
-.promo{
+.promo-wrap{
   margin: 20px 0;
   @include pie-clearfix;
 }
 .promo-item{
+  color: #fff;
   width:31.97278911564626%;
-  height: 230px;
+  min-height: 230px;
   margin: 15px 0.6802721088435374%;
+  padding: 30px 20px;
   float: left;
+  @include box-sizing(border-box);
+  @include pie-clearfix;
+  p {
+    margin-top: 15px;
+    font-size: 20px;
+    clear: both;
+  }
+  h2 {
+    padding-top: 10px;
+    padding-left: 110px;
+  }
 }
 .first{
   background: #74b2e5;
@@ -199,6 +212,25 @@ header{
 }
 .third {
   background: #109927;
+  h2 {
+    padding-left: 90px;
+  }
+}
+.promo-img{
+  width: 85px;
+  height: 78px;
+  background: url(../img/promo-nav.png) no-repeat;
+  
+  margin: 0 25px 25px 0;
+  @include float(left);
+}
+.diagramm {
+  background-position: -85px 0;
+} 
+.dollar {
+  margin-right: 0;
+  background-position: -170px 0;
+
 }
 .UC-inner {
   clear:both;
@@ -252,13 +284,16 @@ header{
   /*promo*/
   .first{
     width: 48.6394557823%;
+    min-height: 100%
   }
   .second{
     width: 48.6394557823%;
+    min-height: 100%
   }
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
+    min-height: 100%
   }
   /*end-promo*/
 

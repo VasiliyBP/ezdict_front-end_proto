@@ -260,7 +260,7 @@ header input:focus:-ms-input-placeholder {
 }
 
 /* line 108, D:/work/ezdict_front-end_proto/sass/app.scss */
-.carousel-wrapp {
+.carousel-wrap {
   min-height: 495px;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -269,7 +269,7 @@ header input:focus:-ms-input-placeholder {
 }
 
 /* line 115, D:/work/ezdict_front-end_proto/sass/app.scss */
-.text-wrapper {
+.text-wrap {
   position: relative;
   color: white;
   max-width: 890px;
@@ -287,18 +287,18 @@ header input:focus:-ms-input-placeholder {
   box-sizing: border-box;
 }
 /* line 124, D:/work/ezdict_front-end_proto/sass/app.scss */
-.text-wrapper h3 {
+.text-wrap h3 {
   font-family: 'times new roman';
   text-align: center;
 }
 
 /* line 129, D:/work/ezdict_front-end_proto/sass/app.scss */
-.excerption-wrapp {
+.excerption-wrap {
   margin-top: 30px;
   *zoom: 1;
 }
 /* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.excerption-wrapp:after {
+.excerption-wrap:after {
   content: "";
   display: table;
   clear: both;
@@ -375,12 +375,12 @@ header input:focus:-ms-input-placeholder {
 }
 
 /* line 184, D:/work/ezdict_front-end_proto/sass/app.scss */
-.promo {
+.promo-wrap {
   margin: 20px 0;
   *zoom: 1;
 }
 /* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.promo:after {
+.promo-wrap:after {
   content: "";
   display: table;
   clear: both;
@@ -388,35 +388,83 @@ header input:focus:-ms-input-placeholder {
 
 /* line 188, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item {
+  color: #fff;
   width: 31.97278911564626%;
-  height: 230px;
+  min-height: 230px;
   margin: 15px 0.6802721088435374%;
+  padding: 30px 20px;
   float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  *zoom: 1;
+}
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.promo-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 197, D:/work/ezdict_front-end_proto/sass/app.scss */
+.promo-item p {
+  margin-top: 15px;
+  font-size: 20px;
+  clear: both;
+}
+/* line 202, D:/work/ezdict_front-end_proto/sass/app.scss */
+.promo-item h2 {
+  padding-top: 10px;
+  padding-left: 110px;
 }
 
-/* line 194, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 207, D:/work/ezdict_front-end_proto/sass/app.scss */
 .first {
   background: #74b2e5;
 }
 
-/* line 197, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 210, D:/work/ezdict_front-end_proto/sass/app.scss */
 .second {
   background: #709bbe;
 }
 
-/* line 200, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 213, D:/work/ezdict_front-end_proto/sass/app.scss */
 .third {
   background: #109927;
 }
+/* line 215, D:/work/ezdict_front-end_proto/sass/app.scss */
+.third h2 {
+  padding-left: 90px;
+}
 
-/* line 203, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 219, D:/work/ezdict_front-end_proto/sass/app.scss */
+.promo-img {
+  width: 85px;
+  height: 78px;
+  background: url(../img/promo-nav.png) no-repeat;
+  margin: 0 25px 25px 0;
+  display: inline;
+  float: left;
+}
+
+/* line 227, D:/work/ezdict_front-end_proto/sass/app.scss */
+.diagramm {
+  background-position: -85px 0;
+}
+
+/* line 230, D:/work/ezdict_front-end_proto/sass/app.scss */
+.dollar {
+  margin-right: 0;
+  background-position: -170px 0;
+}
+
+/* line 235, D:/work/ezdict_front-end_proto/sass/app.scss */
 .UC-inner {
   clear: both;
   margin-top: 20px;
   overflow: hidden;
 }
 
-/* line 208, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 240, D:/work/ezdict_front-end_proto/sass/app.scss */
 .youtube-wrap {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -425,7 +473,7 @@ header input:focus:-ms-input-placeholder {
   background: #8EAAB4;
 }
 
-/* line 215, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 247, D:/work/ezdict_front-end_proto/sass/app.scss */
 .popular-new-content {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -433,14 +481,14 @@ header input:focus:-ms-input-placeholder {
   width: 60.54421768707483%;
 }
 
-/* line 221, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 253, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header {
   height: 70px;
   background: #258ea1;
   margin-bottom: 15px;
 }
 
-/* line 226, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 258, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-1 {
   width: 44.9438202247191%;
   margin-right: 2.247191011235955%;
@@ -449,7 +497,7 @@ header input:focus:-ms-input-placeholder {
   float: left;
 }
 
-/* line 233, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 265, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-2 {
   height: 470px;
   width: 52.80898876404494%;
@@ -459,89 +507,92 @@ header input:focus:-ms-input-placeholder {
 
 /*media quaeries*/
 @media only screen and (max-width: 1050px) {
-  /* line 243, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 275, D:/work/ezdict_front-end_proto/sass/app.scss */
   .text-wrapper {
     width: 95%;
   }
 
-  /* line 246, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 278, D:/work/ezdict_front-end_proto/sass/app.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 253, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 285, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 48.6394557823%;
+    min-height: 100%;
   }
 
-  /* line 256, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 289, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 48.6394557823%;
+    min-height: 100%;
   }
 
-  /* line 259, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 293, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
+    min-height: 100%;
   }
 
   /*end-promo*/
   /*news*/
-  /* line 266, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 301, D:/work/ezdict_front-end_proto/sass/app.scss */
   .popular-new-content {
     margin-top: 15px;
     width: 98.63945578231293%;
   }
 
-  /* line 270, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 305, D:/work/ezdict_front-end_proto/sass/app.scss */
   .youtube-wrap {
     width: 98.63945578231293%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 276, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 311, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 98.63945578231293%;
     margin-top: 15px;
   }
 
-  /* line 280, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 315, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 98.63945578231293%;
     margin-top: 5px;
   }
 
-  /* line 284, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 319, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
   }
 
-  /* line 288, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 323, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-photo {
     text-align: center;
     width: 100%;
   }
 
-  /* line 292, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 327, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-text {
     width: 100%;
   }
 
-  /* line 295, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 330, D:/work/ezdict_front-end_proto/sass/app.scss */
   .logo-wrap {
     text-align: center;
     width: 100%;
   }
 
-  /* line 299, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 334, D:/work/ezdict_front-end_proto/sass/app.scss */
   .search-login-wrap {
     width: 100%;
   }
 
-  /* line 302, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 337, D:/work/ezdict_front-end_proto/sass/app.scss */
   .reg-btn {
     width: 100%;
   }
