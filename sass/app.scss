@@ -121,7 +121,7 @@ header{
   max-width: 890px ; /*51.02040816326531% ;*/
   background: rgba(55, 27, 23, 0.20);
   margin: 0 auto;
-  padding: 30px 4% 140px;
+  padding: 30px 4% 150px;
   @include border-radius(10px);
   @include box-sizing(border-box);
   h3 {
@@ -134,8 +134,28 @@ header{
     @include pie-clearfix;
   }
   .excerption {
+    position: relative;
+    text-align: justify;
     line-height: 18px;
     text-shadow: 0 0 20px black, 0 0 30px black;
+    &:before {
+      content: '';
+      position: absolute;
+      bottom: -20px;
+      right: -3%;
+      width: 25px;
+      height: 20px;
+      background:url(../img/promo-nav.png) -425px 0 no-repeat;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: -5%;
+      width: 25px;
+      height: 20px;
+      background:url(../img/promo-nav.png) -425px -23px no-repeat;
+    }
   }
 	.author-photo{
     font-size: 100%;
