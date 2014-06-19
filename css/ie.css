@@ -7,3 +7,23 @@
 .reg-btn {
   width: 315px;
 }
+
+/* line 10, D:/work/ezdict_front-end_proto/sass/ie.scss */
+.text-wrap {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#33371B17,endColorstr=#33371B17)";
+  /* IE8 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#33371B17,endColorstr=#33371B17);
+  /* IE6 & 7 */
+  zoom: 1;
+}
+
+/* line 18, D:/work/ezdict_front-end_proto/sass/ie.scss */
+.reg-btn button {
+  background: transparent;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5074E72,endColorstr=#A5074E72)";
+  /* IE8 */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#A5074E72,endColorstr=#A5074E72);
+  /* IE6 & 7 */
+  zoom: 1;
+}
