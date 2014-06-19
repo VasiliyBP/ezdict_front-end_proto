@@ -9,7 +9,7 @@
  
 // colors 
 $font-main-color: white;
-$col-header-color: #323f44; 
+$col-header-color: #3d4f56; 
 
 // width 
 $main-width: 1470px;
@@ -274,7 +274,7 @@ header{
   height: 70px;
   background: #299bb0;
   margin-bottom: 15px;
-  padding: 0 1.700680272108844%;
+  padding: 0 1.685393258426966%;
   h3{
     font-weight: 500;
     line-height: 70px;
@@ -292,9 +292,15 @@ header{
 .pop-new-item{
   height: 220px;
   background: #674634;
+  margin-bottom: 15px;
+  overflow: hidden;
+   text-align: center;
+  img {
+
+    height: auto;
+  }
 }
 .item-bottom {
-  margin-top: 15px;
   height: 230px;
 }
 .pop-new-col-2{
