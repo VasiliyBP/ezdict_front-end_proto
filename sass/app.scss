@@ -184,6 +184,7 @@ header{
   right: 0;
   margin: 0 auto;
   text-align: center;
+
   button {
     font-size: 24px;
     color: $font-main-color;
@@ -192,10 +193,12 @@ header{
     background: rgba(7,78,114,0.65);
     border: none;
     @include box-shadow(black 0 0 30px);
+
     &:hover {
       cursor: pointer;
       background: rgba(7,78,114,0.9);
     }
+    
     &:active {
       background: rgba(42,157,214,0.8);
     }
@@ -204,6 +207,7 @@ header{
 .main-layout{
   max-width: $main-width;
   margin: 0 auto ;
+  @include pie-clearfix;
 }
 .promo-wrap{
   margin: 20px 0;
@@ -250,36 +254,25 @@ header{
 .dollar {
   width: 50px;
   background-position: -180px 0;
-
 }
-.UC-inner {
-  clear:both;
-  margin-top: 20px;
-  overflow:hidden;
-}
-.youtube-wrap {
-  float:left;
-  margin: 0 0.6802721088435374%;
-  height: 100%;
-  min-height:560px;
-  width: 36.73469387755102%;
+.news-item {
+  margin-bottom: 15px;
+  height:500px;
   background: #128929;
 }
 .popular-new-content {
-  float:left;
-  margin: 0 0.6802721088435374%;
- 
-  width: 60.54421768707483%;
+  margin-bottom: 1.685393258426966%;
+  @include pie-clearfix;
 }
 .pop-new-header{
-  height: 70px;
+  
   background: #299bb0;
-  margin-bottom: 15px;
-  padding: 0 1.685393258426966%;
+  margin-bottom: 1.685393258426966%;
+  padding: 2.584269662921348% 1.685393258426966%;
+
   h3{
     font-weight: 500;
-    line-height: 70px;
-    color: $col-header-color;
+    color: $font-main-color;
   }
 }
 .new-header {
@@ -291,25 +284,56 @@ header{
   margin-right: 2.247191011235955%;
   float:left;
 }
-
-.pop-new-item{
-  
- background: #299bb0;
-
-  margin-bottom: 3.74999995217391%;
+.pop-new-item {
+  position: relative;
   font-size: 0;
- 
+  cursor: pointer;
+  $height: 50px;
+  h4 {
+    color: $font-main-color;
+    line-height: $height;
+    font-weight: 500;
+  }
+  &:hover>.item-annotation {
+    height: $height;
+    @include transition(0.3s all ease);
+  }
+}
+.item-annotation {
+  overflow: hidden;
+  position: absolute;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(64,148,203,0.8);
+}
+
+.item-1{
+  margin-bottom: 3.74999995217391%;
 }
 .item-2 {
-  //margin-bottom: 0;
-} 
+  margin-bottom: 0;
+}
 .pop-new-col-2{
-  font-size: 0;
-
   text-align: center;
   width: 52.80898876404494%;
   background: #299bb0;
   float:left;
+}
+.news-col, .content-col {
+  float:left;
+  @include pie-clearfix;
+}
+.news-col {
+  margin: 0 0.6802721088435374%;
+  height: 100%;
+  width: 36.73469387755102%;
+}
+.content-col {
+  float:left;
+  margin: 0 0.6802721088435374%;
+  width: 60.54421768707483%;
 }
 
 /*media quaeries*/
@@ -350,16 +374,7 @@ header{
   /*end-promo*/
 
   /*news*/
-  .popular-new-content {
-    margin-top: 15px;
-    width: 98.63945578231293%;
-    img {
-      width: 100%;
-    }
-  }
-  .youtube-wrap {
-    width: 98.63945578231293%;
-  }
+  
 }
 
 @media only screen and (max-width: 768px) {
@@ -395,17 +410,19 @@ header{
   .reg-btn {
     width: 100%;
   }
-  
-//   .pop-new-col-1{
-  
-
-//   width: 100%;
-  
-// }
-//   .pop-new-col-2{
-//   margin-top: 15px;
-//   width: 100%;
-  
-// }
+  .popular-new-content {
+    h3{
+      font-size: 18px;
+    }
+  }
+  .content-col {
+    width: 98.63945578231293%;
+    img {
+      width: 100%;
+    }
+  }
+  .news-col {
+    width: 98.63945578231293%;
+  }
 
 }
