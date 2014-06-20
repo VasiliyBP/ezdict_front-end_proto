@@ -131,14 +131,15 @@ header{
   }
 } 
   .excerption-wrap{
-    margin-top: 30px;
+    margin-top: 25px;
     @include pie-clearfix;
   }
   .excerption {
     position: relative;
     text-align: justify;
-    line-height: 18px;
-    text-shadow: 0 0 20px black, 0 0 30px black;
+    font-size: 18px;
+    line-height: 20px;
+    text-shadow: 0 0 20px black, 0 0 30px rgba(0, 0, 0, 0.40);
     &:before {
       content: '';
       position: absolute;
@@ -260,9 +261,11 @@ header{
   color: $font-main-color;
   margin-bottom: 15px;
   background: #128929;
-  padding: 25px 4.62962962962963% 115px;
+  padding: 25px 4.62962962962963% 100px;
   @include box-sizing(border-box);
-
+  &:last-child{
+    background:#3e6044;
+  }
   h3{
     font-weight: 500;
   }
@@ -364,6 +367,7 @@ header{
   margin: 0 0.6802721088435374%;
   height: 100%;
   width: 36.73469387755102%;
+  
 }
 .content-col {
   float:left;
@@ -458,6 +462,11 @@ header{
   }
   .news-col {
     width: 98.63945578231293%;
+  }
+  .news-item {
+    h3 {
+      text-align: center;
+    }
   }
 
 }
