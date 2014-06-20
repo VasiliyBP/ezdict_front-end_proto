@@ -352,7 +352,7 @@ header input:focus:-ms-input-placeholder {
 }
 /* line 174, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-text p {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* line 178, D:/work/ezdict_front-end_proto/sass/app.scss */
@@ -478,102 +478,93 @@ header input:focus:-ms-input-placeholder {
 .youtube-wrap {
   float: left;
   margin: 0 0.6802721088435374%;
-  height: 550px;
+  height: 100%;
+  min-height: 560px;
   width: 36.73469387755102%;
   background: #128929;
 }
 
-/* line 267, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 268, D:/work/ezdict_front-end_proto/sass/app.scss */
 .popular-new-content {
   float: left;
   margin: 0 0.6802721088435374%;
-  min-height: 550px;
   width: 60.54421768707483%;
 }
 
-/* line 273, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 274, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header {
   height: 70px;
   background: #299bb0;
   margin-bottom: 15px;
   padding: 0 1.685393258426966%;
 }
-/* line 278, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 279, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header h3 {
   font-weight: 500;
   line-height: 70px;
   color: #3d4f56;
 }
 
-/* line 284, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 285, D:/work/ezdict_front-end_proto/sass/app.scss */
 .new-header {
   background: #49b7cb;
 }
 
-/* line 287, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 288, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-1 {
+  text-align: center;
   width: 44.9438202247191%;
   margin-right: 2.247191011235955%;
   float: left;
 }
 
-/* line 292, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 295, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item {
-  height: 220px;
-  background: #674634;
-  margin-bottom: 15px;
-  overflow: hidden;
-  text-align: center;
-}
-/* line 298, D:/work/ezdict_front-end_proto/sass/app.scss */
-.pop-new-item img {
-  height: auto;
-}
-
-/* line 303, D:/work/ezdict_front-end_proto/sass/app.scss */
-.item-bottom {
-  height: 230px;
+  background: #299bb0;
+  margin-bottom: 3.74999995217391%;
+  font-size: 0;
 }
 
 /* line 306, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-2 {
-  height: 465px;
+  font-size: 0;
+  text-align: center;
   width: 52.80898876404494%;
-  background: #258ea6;
+  background: #299bb0;
   float: left;
 }
 
 /*media quaeries*/
 @media only screen and (max-width: 1280px) {
-  /* line 316, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 318, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item {
     min-height: 250px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 323, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 325, D:/work/ezdict_front-end_proto/sass/app.scss */
   .text-wrap {
     width: 95%;
   }
 
-  /* line 326, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 328, D:/work/ezdict_front-end_proto/sass/app.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 334, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 336, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 48.6394557823%;
   }
 
-  /* line 338, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 340, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 48.6394557823%;
   }
 
-  /* line 342, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 344, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
@@ -582,74 +573,67 @@ header input:focus:-ms-input-placeholder {
 
   /*end-promo*/
   /*news*/
-  /* line 351, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 353, D:/work/ezdict_front-end_proto/sass/app.scss */
   .popular-new-content {
     margin-top: 15px;
     width: 98.63945578231293%;
   }
+  /* line 356, D:/work/ezdict_front-end_proto/sass/app.scss */
+  .popular-new-content img {
+    width: 100%;
+  }
 
-  /* line 355, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 360, D:/work/ezdict_front-end_proto/sass/app.scss */
   .youtube-wrap {
     width: 98.63945578231293%;
   }
 }
 @media only screen and (max-width: 768px) {
-  /* line 361, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 366, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 98.63945578231293%;
     margin-top: 15px;
     min-height: 100%;
   }
 
-  /* line 366, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 371, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 98.63945578231293%;
     margin-top: 5px;
     min-height: 100%;
   }
 
-  /* line 371, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 376, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
     min-height: 100%;
   }
 
-  /* line 376, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 381, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-photo {
     text-align: center;
     width: 100%;
   }
 
-  /* line 380, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 385, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-text {
     width: 100%;
   }
 
-  /* line 383, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 388, D:/work/ezdict_front-end_proto/sass/app.scss */
   .logo-wrap {
     text-align: center;
     width: 100%;
   }
 
-  /* line 387, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 392, D:/work/ezdict_front-end_proto/sass/app.scss */
   .search-login-wrap {
     width: 100%;
   }
 
-  /* line 390, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 395, D:/work/ezdict_front-end_proto/sass/app.scss */
   .reg-btn {
-    width: 100%;
-  }
-
-  /* line 394, D:/work/ezdict_front-end_proto/sass/app.scss */
-  .pop-new-col-1 {
-    width: 100%;
-  }
-
-  /* line 400, D:/work/ezdict_front-end_proto/sass/app.scss */
-  .pop-new-col-2 {
-    margin-top: 15px;
     width: 100%;
   }
 }
