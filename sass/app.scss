@@ -256,9 +256,42 @@ header{
   background-position: -180px 0;
 }
 .news-item {
+  position: relative;
+  color: $font-main-color;
   margin-bottom: 15px;
-  height:500px;
   background: #128929;
+  padding: 25px 4.62962962962963% 115px;
+  @include box-sizing(border-box);
+
+  h3{
+    font-weight: 500;
+  }
+
+}
+.news-item-img {
+  margin: 20px 0;
+  text-align: center;
+
+}
+.news-item-txt{
+  font-size: 20px;
+  line-height: 25px;
+}
+.news-item-btn {
+  position: absolute;
+  bottom: 20px;
+  right: 4.62962962962963%;
+  width: 72px;
+  height: 73px;
+  background:transparent url('../img/promo-nav.png') -261px -5px no-repeat;
+  cursor:pointer;
+  @include border-radius(60px);
+  &:hover {
+    @include box-shadow(white 0 0 20px, inset 0 0 20px);
+  }
+  &:active{
+    background-position: -346px -5px;
+  }
 }
 .popular-new-content {
   margin-bottom: 1.685393258426966%;
@@ -321,11 +354,13 @@ header{
   background: #299bb0;
   float:left;
 }
+
+
 .news-col, .content-col {
   float:left;
-  @include pie-clearfix;
 }
 .news-col {
+  float: left;
   margin: 0 0.6802721088435374%;
   height: 100%;
   width: 36.73469387755102%;
