@@ -579,15 +579,10 @@ header input:focus:-ms-input-placeholder {
 /* line 329, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item:hover > .item-annotation {
   overflow-y: auto;
-  height: 100%;
 }
 /* line 334, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item:hover .item-annotation > h4 {
   display: none;
-}
-/* line 337, D:/work/ezdict_front-end_proto/sass/app.scss */
-.pop-new-item:hover .item-description-wrap {
-  display: table;
 }
 
 /* line 341, D:/work/ezdict_front-end_proto/sass/app.scss */
@@ -607,6 +602,7 @@ header input:focus:-ms-input-placeholder {
 .item-description-wrap {
   width: 100%;
   height: 100%;
+  display: none;
 }
 
 /* line 358, D:/work/ezdict_front-end_proto/sass/app.scss */
