@@ -1,11 +1,6 @@
 $(document).ready(function(){
-	$('.pop-new-item').on('mouseenter', function(){
-
-		
+	$('.pop-new-item').on('mouseover', function(){
+		$('p').css('color','black');
 	});	
-
-	$('.pop-new-item').on('mouseleave', function(){
-		
-	});
 		
 });
