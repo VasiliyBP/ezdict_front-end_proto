@@ -326,15 +326,16 @@ header{
     font-weight: 500;
     line-height: 40px;
   }
-  // &:hover>.item-annotation {
-  //   height: 100%;
-  //   // @include transition(0.3s height ease); 100% при наведении на блок
-  // }
+  &:hover>.item-annotation {
+    overflow-y: auto;
+    height: 100%;
+   // @include transition(0.3s height ease); //100% при наведении на блок
+  }
   &:hover .item-annotation>h4 {
     display: none;
   }
   &:hover .item-description-wrap {
-   // display:table;                    // появление блока при наведении
+    display:table;                    // появление блока при наведении
   }
 }
 .item-annotation {
@@ -346,12 +347,12 @@ header{
   left: 0;
   right: 0;
   background: rgba(64,148,203,0.9);
-  overflow-y: auto;
+  overflow: hidden;
 }
 .item-description-wrap {
   width: 100%;
   height: 100%;
-  display: none;
+  //display: none;
 }
 
 .item-description-wrap .item-description-cell {
@@ -363,6 +364,7 @@ header{
   width: 100%;
   margin: 10px auto;
   @include box-sizing(border-box);
+
 }
 .pop-new-col-2{
   text-align: center;

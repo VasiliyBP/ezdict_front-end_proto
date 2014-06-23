@@ -1,6 +1,21 @@
-$(document).ready(function(){
-	$('.pop-new-item').on('mouseover', function(){
-		$('p').css('color','black');
-	});	
-		
-});
+// $(document).ready(function(){
+// 	$('.pop-new-item').on('mouseenter', function(){
+// 		$(this).find('.item-header').fadeOut('fast');
+// 			$(this).find('.item-annotation').animate({'height':'100%'},'fast', function(){
+// 				$(this).find('.item-description-wrap').css('display','table').fadeIn();
+// 				});
+			
+// 		}); 
+	
+// 	$('.pop-new-item').on('mouseleave', function(){
+// 		$(this).find('.item-description-wrap').css('display','none');
+// 		$(this).find('.item-annotation').animate({'height':'40px'}, 'fast', function(){
+// 			$(this).find('.item-header').fadeIn('fast');
+// 		}); 
+// 	});	
+// });
+
+
+
+
+
