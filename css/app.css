@@ -1,4 +1,4 @@
-/* line 17, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,129 +20,130 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 12, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 12, D:/work/ezdict_front-end_proto/sass/app.scss */
 html, body {
   background: #e5eef2;
   font-family: sans-serif;
 }
 
-/* line 17, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 17, D:/work/ezdict_front-end_proto/sass/app.scss */
 b, strong {
   font-weight: 700;
 }
 
-/* line 18, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 18, D:/work/ezdict_front-end_proto/sass/app.scss */
 i, em {
   font-style: italic;
 }
 
-/* line 19, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 19, D:/work/ezdict_front-end_proto/sass/app.scss */
 h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
-/* line 20, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 20, D:/work/ezdict_front-end_proto/sass/app.scss */
 h1 {
   font-size: 36px;
 }
 
-/* line 21, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 21, D:/work/ezdict_front-end_proto/sass/app.scss */
 h2 {
   font-size: 30px;
 }
 
-/* line 22, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 22, D:/work/ezdict_front-end_proto/sass/app.scss */
 h3 {
   font-size: 24px;
 }
 
-/* line 23, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 23, D:/work/ezdict_front-end_proto/sass/app.scss */
 h4 {
   font-size: 18px;
 }
 
-/* line 24, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 24, D:/work/ezdict_front-end_proto/sass/app.scss */
 h5 {
   font-size: 14px;
 }
 
-/* line 25, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 25, D:/work/ezdict_front-end_proto/sass/app.scss */
 h6 {
   font-size: 12px;
 }
 
-/* line 27, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 27, D:/work/ezdict_front-end_proto/sass/app.scss */
 img {
   max-width: 100%;
 }
 
-/* line 30, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 30, D:/work/ezdict_front-end_proto/sass/app.scss */
 .login-logo-wrap {
   *zoom: 1;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .login-logo-wrap:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 33, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 33, D:/work/ezdict_front-end_proto/sass/app.scss */
 .header-pattern {
   *zoom: 1;
   background: url("../img/header_pattern4.gif") center center;
+  overflow: hidden;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .header-pattern:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 38, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 39, D:/work/ezdict_front-end_proto/sass/app.scss */
 .header-layout {
   position: relative;
   width: 100%;
@@ -150,71 +151,71 @@ img {
   margin: 0 auto;
 }
 
-/* line 44, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 45, D:/work/ezdict_front-end_proto/sass/app.scss */
 header {
   max-width: 890px;
   /*51.02040816326531%;*/
   margin: 0 auto 20px;
   padding-top: 15px;
 }
-/* line 48, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 49, D:/work/ezdict_front-end_proto/sass/app.scss */
 header ::-webkit-input-placeholder {
   /* WebKit browsers */
   color: white;
 }
-/* line 51, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 52, D:/work/ezdict_front-end_proto/sass/app.scss */
 header :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
   color: white;
   opacity: 1;
 }
-/* line 55, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 56, D:/work/ezdict_front-end_proto/sass/app.scss */
 header ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
   color: white;
   opacity: 1;
 }
-/* line 59, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 60, D:/work/ezdict_front-end_proto/sass/app.scss */
 header :-ms-input-placeholder {
   /* Internet Explorer 10+ */
   color: white;
 }
-/* line 62, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 63, D:/work/ezdict_front-end_proto/sass/app.scss */
 header input:focus::-moz-placeholder {
   color: transparent;
 }
-/* line 63, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 64, D:/work/ezdict_front-end_proto/sass/app.scss */
 header input:focus::-webkit-input-placeholder {
   color: transparent;
 }
-/* line 64, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 65, D:/work/ezdict_front-end_proto/sass/app.scss */
 header input:focus:-moz-placeholder {
   color: transparent;
 }
-/* line 65, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 66, D:/work/ezdict_front-end_proto/sass/app.scss */
 header input:focus:-ms-input-placeholder {
   color: transparent;
 }
 
-/* line 67, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 68, D:/work/ezdict_front-end_proto/sass/app.scss */
 .logo-wrap {
   vertical-align: bottom;
   width: 44%;
   float: left;
 }
 
-/* line 72, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 73, D:/work/ezdict_front-end_proto/sass/app.scss */
 .login-btn {
   margin-top: -5px;
   margin-bottom: 10px;
   font-weight: bold;
 }
-/* line 76, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 77, D:/work/ezdict_front-end_proto/sass/app.scss */
 .login-btn span {
   cursor: pointer;
 }
 
-/* line 80, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 81, D:/work/ezdict_front-end_proto/sass/app.scss */
 .search-login-wrap {
   margin-left: 2.66667%;
   width: 53.33333333333333%;
@@ -223,7 +224,7 @@ header input:focus:-ms-input-placeholder {
   text-align: right;
 }
 
-/* line 88, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 89, D:/work/ezdict_front-end_proto/sass/app.scss */
 .search-form {
   color: white;
   font-size: 16px;
@@ -243,26 +244,78 @@ header input:focus:-ms-input-placeholder {
   padding-left: 30px;
 }
 
-/* line 100, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 101, D:/work/ezdict_front-end_proto/sass/app.scss */
 .appeal {
   color: white;
 }
-/* line 102, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 103, D:/work/ezdict_front-end_proto/sass/app.scss */
 .appeal p {
   margin: 1em 0;
   font-size: 25px;
 }
 
-/* line 107, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 108, D:/work/ezdict_front-end_proto/sass/app.scss */
 .carousel-wrap {
+  position: relative;
+  min-height: 525px;
+}
+
+/* line 114, D:/work/ezdict_front-end_proto/sass/app.scss */
+.carousel-indicators {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+}
+/* line 124, D:/work/ezdict_front-end_proto/sass/app.scss */
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* line 137, D:/work/ezdict_front-end_proto/sass/app.scss */
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+
+/* line 143, D:/work/ezdict_front-end_proto/sass/app.scss */
+.carousel-item {
   min-height: 495px;
   margin: 0 auto;
   padding-bottom: 30px;
   position: relative;
+  width: 100%;
   background: url("../img/book2237cc.png") no-repeat bottom center;
 }
 
-/* line 114, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 151, D:/work/ezdict_front-end_proto/sass/app.scss */
+.carousel-item.next {
+  position: absolute;
+  top: 0;
+}
+
+/* line 155, D:/work/ezdict_front-end_proto/sass/app.scss */
+#second-slide, #third-slide {
+  display: none;
+}
+
+/* line 159, D:/work/ezdict_front-end_proto/sass/app.scss */
 .text-wrap {
   position: relative;
   color: white;
@@ -280,25 +333,25 @@ header input:focus:-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 123, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 168, D:/work/ezdict_front-end_proto/sass/app.scss */
 .text-wrap h3 {
   font-family: 'times new roman';
   text-align: center;
 }
 
-/* line 128, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 173, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption-wrap {
   margin-top: 25px;
   *zoom: 1;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .excerption-wrap:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 132, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 177, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption {
   position: relative;
   text-align: justify;
@@ -307,7 +360,7 @@ header input:focus:-ms-input-placeholder {
   text-shadow: 0 0 20px black, 0 0 30px rgba(0, 0, 0, 0.4);
   font-family: 'times';
 }
-/* line 139, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 184, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption:before {
   content: '';
   position: absolute;
@@ -317,7 +370,7 @@ header input:focus:-ms-input-placeholder {
   height: 20px;
   background: url(../img/promo-nav.png) -425px 0 no-repeat;
 }
-/* line 148, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 193, D:/work/ezdict_front-end_proto/sass/app.scss */
 .excerption:after {
   content: '';
   position: absolute;
@@ -328,7 +381,7 @@ header input:focus:-ms-input-placeholder {
   background: url(../img/promo-nav.png) -425px -23px no-repeat;
 }
 
-/* line 158, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 203, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-photo {
   font-size: 100%;
   width: 30%;
@@ -339,7 +392,7 @@ header input:focus:-ms-input-placeholder {
   box-sizing: border-box;
 }
 
-/* line 166, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 211, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-text {
   font-size: 16px;
   width: 70%;
@@ -348,12 +401,12 @@ header input:focus:-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 171, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 216, D:/work/ezdict_front-end_proto/sass/app.scss */
 .author-text p {
   margin-top: 50px;
 }
 
-/* line 175, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 220, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn {
   width: 315px;
   max-width: 315px;
@@ -364,7 +417,7 @@ header input:focus:-ms-input-placeholder {
   margin: 0 auto;
   text-align: center;
 }
-/* line 185, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 230, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button {
   font-size: 24px;
   color: white;
@@ -376,42 +429,42 @@ header input:focus:-ms-input-placeholder {
   -moz-box-shadow: black 0 0 30px;
   box-shadow: black 0 0 30px;
 }
-/* line 194, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 239, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button:hover {
   cursor: pointer;
   background: rgba(7, 78, 114, 0.9);
 }
-/* line 199, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 244, D:/work/ezdict_front-end_proto/sass/app.scss */
 .reg-btn button:active {
   background: rgba(42, 157, 214, 0.8);
 }
 
-/* line 204, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 249, D:/work/ezdict_front-end_proto/sass/app.scss */
 .main-layout {
   max-width: 1470px;
   margin: 0 auto;
   *zoom: 1;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .main-layout:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 209, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 254, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-wrap {
   margin: 20px 0;
   *zoom: 1;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .promo-wrap:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 213, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 258, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item {
   color: white;
   width: 31.97278911564626%;
@@ -423,37 +476,37 @@ header input:focus:-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 221, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 266, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item p {
   margin: 15px auto 0 auto;
   width: 95%;
   font-size: 20px;
 }
-/* line 226, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 271, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item table {
   margin: 0 auto;
 }
-/* line 229, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 274, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-item td {
   padding: 0 10px;
 }
 
-/* line 233, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 278, D:/work/ezdict_front-end_proto/sass/app.scss */
 .first {
   background: #74b2e5;
 }
 
-/* line 236, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 281, D:/work/ezdict_front-end_proto/sass/app.scss */
 .second {
   background: #709bbe;
 }
 
-/* line 239, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 284, D:/work/ezdict_front-end_proto/sass/app.scss */
 .third {
   background: #109927;
 }
 
-/* line 242, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 287, D:/work/ezdict_front-end_proto/sass/app.scss */
 .promo-img {
   width: 85px;
   height: 78px;
@@ -461,18 +514,18 @@ header input:focus:-ms-input-placeholder {
   vertical-align: middle;
 }
 
-/* line 248, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 293, D:/work/ezdict_front-end_proto/sass/app.scss */
 .diagramm {
   background-position: -85px 0;
 }
 
-/* line 251, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 296, D:/work/ezdict_front-end_proto/sass/app.scss */
 .dollar {
   width: 50px;
   background-position: -180px 0;
 }
 
-/* line 255, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 300, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item {
   position: relative;
   color: white;
@@ -483,28 +536,28 @@ header input:focus:-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 262, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 307, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item:last-child {
   background: #3e6044;
 }
-/* line 265, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 310, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item h3 {
   font-weight: 500;
 }
 
-/* line 270, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 315, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item-img {
   margin: 20px 0;
   text-align: center;
 }
 
-/* line 275, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 320, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item-txt {
   font-size: 20px;
   line-height: 25px;
 }
 
-/* line 279, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 324, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item-btn {
   position: absolute;
   bottom: 20px;
@@ -519,44 +572,44 @@ header input:focus:-ms-input-placeholder {
   -o-border-radius: 60px;
   border-radius: 60px;
 }
-/* line 288, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 333, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item-btn:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
-/* line 292, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 337, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-item-btn:active {
   background-position: -346px -5px;
 }
 
-/* line 296, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 341, D:/work/ezdict_front-end_proto/sass/app.scss */
 .popular-new-content {
   *zoom: 1;
 }
-/* line 38, c:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+/* line 38, D:/Program Files/Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .popular-new-content:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 300, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 345, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header {
   background: #299bb0;
   margin-bottom: 1.685393258426966%;
   padding: 2.584269662921348% 1.685393258426966%;
 }
-/* line 306, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 351, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-header h3 {
   font-weight: 500;
   color: white;
 }
 
-/* line 311, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 356, D:/work/ezdict_front-end_proto/sass/app.scss */
 .new-header {
   background: #49b7cb;
 }
 
-/* line 314, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 359, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-1 {
   text-align: center;
   width: 44.9438202247191%;
@@ -564,29 +617,29 @@ header input:focus:-ms-input-placeholder {
   float: left;
 }
 
-/* line 320, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 365, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item {
   position: relative;
   font-size: 0;
   cursor: pointer;
   margin-bottom: 3.74999995217391%;
 }
-/* line 325, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 370, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item h4 {
   font-weight: 500;
   line-height: 40px;
 }
-/* line 329, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 374, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item:hover > .item-annotation {
   overflow-y: auto;
 }
-/* line 334, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 379, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-item:hover .item-annotation > h4 {
   display: none;
   line-height: 18px;
 }
 
-/* line 342, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 387, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-annotation {
   color: white;
   font-size: 16px;
@@ -599,20 +652,20 @@ header input:focus:-ms-input-placeholder {
   overflow: hidden;
 }
 
-/* line 353, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 398, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-description-wrap {
   width: 100%;
   height: 100%;
   display: none;
 }
 
-/* line 359, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 404, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-description-wrap .item-description-cell {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 363, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 408, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-description {
   padding: 0 10px;
   width: 100%;
@@ -621,30 +674,30 @@ header input:focus:-ms-input-placeholder {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 368, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 413, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-description > h4 {
   line-height: 18px;
   margin-bottom: 10px;
 }
 
-/* line 374, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 419, D:/work/ezdict_front-end_proto/sass/app.scss */
 .pop-new-col-2 {
   text-align: center;
   width: 52.80898876404494%;
   float: left;
 }
 
-/* line 380, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 425, D:/work/ezdict_front-end_proto/sass/app.scss */
 .item-large {
   margin-bottom: 3.191489361702128%;
 }
 
-/* line 384, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 429, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-col, .content-col {
   float: left;
 }
 
-/* line 387, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 432, D:/work/ezdict_front-end_proto/sass/app.scss */
 .news-col {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -652,7 +705,7 @@ header input:focus:-ms-input-placeholder {
   width: 36.73469387755102%;
 }
 
-/* line 394, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+/* line 439, D:/work/ezdict_front-end_proto/sass/app.scss */
 .content-col {
   float: left;
   margin: 0 0.6802721088435374%;
@@ -661,35 +714,35 @@ header input:focus:-ms-input-placeholder {
 
 /*media quaeries*/
 @media only screen and (max-width: 1280px) {
-  /* line 403, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 448, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item {
     min-height: 250px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 410, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 455, D:/work/ezdict_front-end_proto/sass/app.scss */
   .text-wrap {
     width: 95%;
   }
 
-  /* line 413, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 458, D:/work/ezdict_front-end_proto/sass/app.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 421, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 466, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 48.6394557823%;
   }
 
-  /* line 425, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 470, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 48.6394557823%;
   }
 
-  /* line 429, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 474, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
@@ -700,74 +753,74 @@ header input:focus:-ms-input-placeholder {
   /*news*/
 }
 @media only screen and (max-width: 768px) {
-  /* line 442, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 487, D:/work/ezdict_front-end_proto/sass/app.scss */
   .first {
     width: 98.63945578231293%;
     margin-top: 15px;
     min-height: 100%;
   }
 
-  /* line 447, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 492, D:/work/ezdict_front-end_proto/sass/app.scss */
   .second {
     width: 98.63945578231293%;
     margin-top: 5px;
     min-height: 100%;
   }
 
-  /* line 452, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 497, D:/work/ezdict_front-end_proto/sass/app.scss */
   .third {
     margin-top: 5px;
     width: 98.63945578231293%;
     min-height: 100%;
   }
 
-  /* line 457, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 502, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-photo {
     text-align: center;
     width: 100%;
   }
 
-  /* line 461, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 506, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-text {
     width: 100%;
   }
 
-  /* line 464, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 509, D:/work/ezdict_front-end_proto/sass/app.scss */
   .logo-wrap {
     text-align: center;
     width: 100%;
   }
 
-  /* line 468, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 513, D:/work/ezdict_front-end_proto/sass/app.scss */
   .search-login-wrap {
     width: 100%;
   }
 
-  /* line 471, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 516, D:/work/ezdict_front-end_proto/sass/app.scss */
   .reg-btn {
     width: 100%;
   }
 
-  /* line 475, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 520, D:/work/ezdict_front-end_proto/sass/app.scss */
   .popular-new-content h3 {
     font-size: 18px;
   }
 
-  /* line 479, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 524, D:/work/ezdict_front-end_proto/sass/app.scss */
   .content-col {
     width: 98.63945578231293%;
   }
-  /* line 481, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 526, D:/work/ezdict_front-end_proto/sass/app.scss */
   .content-col img {
     width: 100%;
   }
 
-  /* line 485, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 530, D:/work/ezdict_front-end_proto/sass/app.scss */
   .news-col {
     width: 98.63945578231293%;
   }
 
-  /* line 489, C:/Users/Mr.D.Slack/Dropbox/Shared-folder/ezdict_front-end_proto/sass/app.scss */
+  /* line 534, D:/work/ezdict_front-end_proto/sass/app.scss */
   .news-item h3 {
     text-align: center;
   }

@@ -33,6 +33,7 @@ img{
 .header-pattern {
   @include pie-clearfix;
   background: url('../img/header_pattern4.gif') center center;
+  overflow: hidden;
 }
 
 .header-layout{
@@ -104,13 +105,57 @@ header{
     font-size: 25px;
   }
 }
-.carousel-wrap {
+.carousel-wrap{
+  position: relative;
+  min-height: 525px;
+  
+ 
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  padding-left: 0;
+  list-style: none;
+  text-align: center;
+  li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0,0,0,0);
+  }
+}
+.carousel-indicators .active {
+  margin: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+}
+.carousel-item {
   min-height:495px;
   margin:0 auto;
   padding-bottom: 30px;
   position: relative;
-  background: url('../img/book2237cc.png') no-repeat bottom center;
+  width: 100%;
+  background: url('../img/book2237cc.png') no-repeat bottom center;  
 }
+.carousel-item.next {
+  position: absolute;
+  top: 0;
+}
+#second-slide, #third-slide {
+  display: none;
+}
+
 .text-wrap{
   position: relative;
   color: $font-main-color;
