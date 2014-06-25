@@ -15,9 +15,9 @@ $(document).ready(function(){
 		$('#third-slide-btn').removeClass('active');
 		$(this).addClass('active');
 		
-		$('#first-slide').fadeIn();
-		$('#second-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
-		$('#third-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
+		$('#first-slide').fadeIn('slow');
+		$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
 		 
 	});
 
@@ -26,9 +26,9 @@ $(document).ready(function(){
 		$('#third-slide-btn').removeClass('active');
 		$(this).addClass('active');
 
-		$('#second-slide').fadeIn();
-		$('#first-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
-		$('#third-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
+		$('#second-slide').fadeIn('slow');
+		$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
 		 
 	});
 
@@ -37,9 +37,9 @@ $(document).ready(function(){
 		$('#second-slide-btn').removeClass('active');
 		$(this).addClass('active');
 
-		$('#third-slide').fadeIn(); 
-		$('#first-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
-		$('#second-slide').addClass('next').fadeOut('slow',function(){$(this).removeClass('next')});
+		$('#third-slide').fadeIn('slow'); 
+		$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
 		
 	});
 
