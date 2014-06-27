@@ -11,30 +11,50 @@ $(document).ready(function(){
 	});	
 
 	
-	$('#first-slide-btn').on('click',function(){
+	// $('#first-slide-btn').on('click',function(){
 
-		$('#second-slide-btn').removeClass('active');
-		$('#third-slide-btn').removeClass('active');
-		$(this).addClass('active');
+	// 	$('#second-slide-btn').removeClass('active');
+	// 	$('#third-slide-btn').removeClass('active');
+	// 	$(this).addClass('active');
 		
-		$('#first-slide').fadeIn('slow');
-		$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
-		$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+	// 	$('#first-slide').fadeIn('slow');
+	// 	$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+	// 	$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
 		 
-	});
+	// });
 
-   
-	$('#third-slide-btn').on('click',function(){
-		$('#first-slide-btn').removeClass('active');
-		$('#second-slide-btn').removeClass('active');
+	// $('#second-slide-btn').on('click',function(){
+ // 		$('#first-slide-btn').removeClass('active');
+ // 		$('#third-slide-btn').removeClass('active');
+ // 		$(this).addClass('active');
+ 
+ // 		$('#second-slide').fadeIn('slow');
+ // 		$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+ // 		$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+ 		 
+ // 	});
+
+	// $('#third-slide-btn').on('click',function(){
+	// 	$('#first-slide-btn').removeClass('active');
+	// 	$('#second-slide-btn').removeClass('active');
+	// 	$(this).addClass('active');
+
+	// 	$('#third-slide').fadeIn('slow'); 
+	// 	$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+	// 	$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		
+	// });
+	$('.slide-btn').on('click',function(){
+
+
+		$('.slide-btn').removeClass('active');
 		$(this).addClass('active');
 
-		$('#third-slide').fadeIn('slow'); 
-		$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
-		$('#second-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
-		
-	});
 
+		$('.carousel-item').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		var index = $(this).index();
+		$('.carousel-item').eq(index).fadeIn();
+	});
 });
 
 
