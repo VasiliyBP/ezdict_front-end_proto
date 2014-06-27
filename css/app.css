@@ -275,8 +275,8 @@ header input:focus:-ms-input-placeholder {
 /* line 124, D:/work/ezdict_front-end_proto/sass/app.scss */
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 13px;
+  height: 13px;
   margin: 1px;
   text-indent: -999px;
   border: 1px solid #fff;
@@ -289,8 +289,8 @@ header input:focus:-ms-input-placeholder {
 /* line 137, D:/work/ezdict_front-end_proto/sass/app.scss */
 .carousel-indicators .active {
   margin: 0;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
 }
 
@@ -326,7 +326,7 @@ header input:focus:-ms-input-placeholder {
 
 /* line 164, D:/work/ezdict_front-end_proto/sass/app.scss */
 #third-slide {
-  background: url("../img/war.png") no-repeat bottom center;
+  background: url("../img/war-sharpen.png") no-repeat bottom center;
 }
 
 /* line 168, D:/work/ezdict_front-end_proto/sass/app.scss */

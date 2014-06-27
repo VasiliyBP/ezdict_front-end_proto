@@ -123,8 +123,8 @@ header{
   text-align: center;
   li {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 13px;
+    height: 13px;
     margin: 1px;
     text-indent: -999px;
     border: 1px solid #fff;
@@ -136,8 +136,8 @@ header{
 }
 .carousel-indicators .active {
   margin: 0;
-  width: 12px;
-  height: 12px;
+  width: 15px;
+  height: 15px;
   background-color: #fff;
 }
 .carousel-item {
@@ -162,7 +162,7 @@ header{
   background: url('../img/town2.png') no-repeat bottom center;
 }
 #third-slide {
-  background: url('../img/war.png') no-repeat bottom center;
+  background: url('../img/war-sharpen.png') no-repeat bottom center;
 }
 
 .text-wrap{

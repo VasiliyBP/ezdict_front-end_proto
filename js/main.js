@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$('.pop-new-item').on('mouseenter', function(){
 			$(this).find('.item-annotation').stop().animate({'height':'100%'},'fast', function(){
 				$(this).find('.item-description-wrap').stop().fadeIn('fast').css('display','table');
@@ -12,8 +13,6 @@ $(document).ready(function(){
 	
 	$('#first-slide-btn').on('click',function(){
 
-		
-
 		$('#second-slide-btn').removeClass('active');
 		$('#third-slide-btn').removeClass('active');
 		$(this).addClass('active');
@@ -24,17 +23,7 @@ $(document).ready(function(){
 		 
 	});
 
-	$('#second-slide-btn').on('click',function(){
-		$('#first-slide-btn').removeClass('active');
-		$('#third-slide-btn').removeClass('active');
-		$(this).addClass('active');
-
-		$('#second-slide').fadeIn('slow');
-		$('#first-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
-		$('#third-slide').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
-		 
-	});
-
+   
 	$('#third-slide-btn').on('click',function(){
 		$('#first-slide-btn').removeClass('active');
 		$('#second-slide-btn').removeClass('active');
