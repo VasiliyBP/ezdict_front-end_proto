@@ -11,6 +11,9 @@ $(document).ready(function(){
 
 	
 	$('#first-slide-btn').on('click',function(){
+
+		
+
 		$('#second-slide-btn').removeClass('active');
 		$('#third-slide-btn').removeClass('active');
 		$(this).addClass('active');

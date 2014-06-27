@@ -146,7 +146,7 @@ header{
   padding-bottom: 30px;
   position: relative;
   width: 100%;
-  background: url('../img/book2237ccc.png') no-repeat bottom center;  
+  
 }
 .carousel-item.next {
   position: absolute;
@@ -154,6 +154,15 @@ header{
 }
 #second-slide, #third-slide {
   display: none;
+}
+#first-slide {
+  background: url('../img/book2237ccc.png') no-repeat bottom center;  
+}
+#second-slide {
+  background: url('../img/town2.png') no-repeat bottom center;
+}
+#third-slide {
+  background: url('../img/war.png') no-repeat bottom center;
 }
 
 .text-wrap{
@@ -206,6 +215,9 @@ header{
   float: left;
   padding-right: 4%;
   @include box-sizing(border-box);
+  img {
+    @include border-radius(100px);
+  }
 
 }
 .author-text {
@@ -275,13 +287,13 @@ header{
     padding: 0 10px;
   }
 }
-.first {
+.promo-item.first {
   background: #74b2e5;
 }
-.second {
+.promo-item.second {
   background: #709bbe;
 }
-.third {
+.promo-item.third {
   background: #109927;
 }
 .promo-img {
@@ -463,15 +475,15 @@ header{
 @media only screen and (max-width: 992px) {
   /*promo*/
 
-  .first{
+  .promo-item.first{
     width: 48.6394557823%;
 
   }
-  .second{
+  .promo-item.second{
     width: 48.6394557823%;
 
   }
-  .third {
+  .promo-item.third {
     margin-top: 5px;
     width: 98.63945578231293%;
     min-height: 100%
@@ -484,17 +496,17 @@ header{
 }
 
 @media only screen and (max-width: 768px) {
-  .first{
+  .promo-item.first{
     width: 98.63945578231293%;
     margin-top: 15px;
     min-height: 100%
   }
-  .second{
+  .promo-item.second{
     width: 98.63945578231293%;
     margin-top: 5px;
     min-height: 100%
   }
-  .third {
+  .promo-item.third {
     margin-top: 5px;
     width: 98.63945578231293%;
     min-height: 100%
