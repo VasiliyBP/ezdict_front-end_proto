@@ -45,18 +45,13 @@ $(document).ready(function(){
 		
 	// });
 	$('.slide-btn').on('click',function(){
-
-
 		$('.slide-btn').removeClass('active');
 		$(this).addClass('active');
-
-
-		$('.carousel-item').addClass('next').fadeOut(400,function(){$(this).removeClass('next')});
+		$('.carousel-item').addClass('next').stop().fadeOut(400,function(){$(this).removeClass('next')});
 		var index = $(this).index();
-		$('.carousel-item').eq(index).fadeIn();
+		$('.carousel-item').eq(index).stop().fadeIn();
 	});
 });
-
 
 
 
