@@ -188,7 +188,7 @@ header{
   text-align: justify;
   font-size: 18px;
   line-height: 20px;
-  text-shadow: 0 0 20px black, 0 0 30px rgba(0, 0, 0, 0.40);
+  text-shadow: 0 0 20px black;//, 0 0 30px rgba(0, 0, 0, 0.40);
   font-family: 'times';
   &:before {
     content: '';
@@ -453,6 +453,159 @@ header{
   margin: 0 0.6802721088435374%;
   width: 60.54421768707483%;
 }
+// все, что касается ссаного стикера-здесь
+.sticker {
+  top:30px;
+  right: 25%;
+  position: absolute;
+  z-index: 100000;
+  min-width: 200px;
+  height: 80px;
+  background:#109926;
+  @include box-shadow(#003600 -3px 2px 1px);
+
+  &::after {
+    content: '';
+    position: absolute;
+    z-index: 1;
+    bottom: -27px;
+    right: 50%;
+    margin-right:-13px ;
+    border: 14px solid;
+    border-color: #109926 transparent transparent transparent;
+  }
+  &::before {
+    content: '';
+    position: absolute;
+    z-index: 0;
+    bottom: -28px;
+    right: 50%;
+    margin-right:-11px ;
+    border: 14px solid;
+    border-color: #003600 transparent transparent transparent;
+   -webkit-filter: blur(0.3px); 
+  -moz-filter: blur(0.3px); 
+   -o-filter: blur(0.3px); 
+   -ms-filter: blur(0.3px); 
+   filter: blur(0.3px);
+  }
+}
+// .sticker-container{
+//   position: relative;
+// }
+.st-btn-wrap{
+  width: 25px;
+  height: 22px;
+  position: absolute;
+  left: -33px;
+  cursor: pointer;
+}
+.st-btn{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background:#109926;
+ @include box-shadow(#003600 -1px 1px 1px);
+}
+.st-btn.counter {
+  width: 30px;
+  height: 22px;
+  background: #fff;
+  top: -25px;
+  padding: 4px 0;
+  @include box-sizing(border-box);
+  >p{
+    text-align: center;
+    font-weight: 800;
+    color: #20a034;
+  }
+}
+.counter.warning1 {
+  background:#efd7d7;
+}
+.counter.warning2 {
+  background:#e5d8a5;
+}
+.counter.warning3 {
+  background:#dcab71;
+}
+.counter.warning4 {
+  background:#dc8071;
+}
+.counter.warning5 {
+  background:#ca3030;
+  p{
+    color:white;
+  }
+}
+.st-btn-wrap.edit {
+  .st-btn {
+    background: #109926 url('../img/promo-nav.png') -50px -80px no-repeat;
+  }
+}
+.st-btn-wrap.add-new {
+  display: none;
+  .st-btn {
+    background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
+  }
+
+}
+.st-btn-wrap.add-to-favorite {  
+  top: 24px;
+  .st-btn {
+    font-family: 'times';
+    color: #fff;
+    padding: 3px;
+    @include box-sizing(border-box);
+  }
+}
+.st-btn-wrap.close {
+  top: 48px;
+  .st-btn {
+    background: #109926 url('../img/promo-nav.png') 0px -80px no-repeat;
+  }
+} 
+div.st-btn-wrap>.st-btn:hover {
+  background-color: #88cc93;
+}
+.st-btn-wrap.add-to-favorite:hover .st-btn  {
+  -webkit-animation: rotating 1s linear infinite;
+  -moz-animation: rotating 1s linear infinite;
+  -ms-animation: rotating 1s linear infinite;
+  -o-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
+}
+
+@keyframes rotating {
+  0% {
+    @include transform(rotateY(0deg));
+  }
+
+  50% {
+    background: #0e761f;
+    @include transform(rotateY(180deg));
+  }
+
+  100% {
+    @include transform(rotateY(360deg));
+ }
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ { 
+  0% {
+    @include transform(rotateY(0deg));
+  }
+
+  50% {
+    background: #0e761f;
+    @include transform(rotateY(180deg));
+  }
+
+  100% {
+    @include transform(rotateY(360deg));
+ }
+}
+// все, что касается ссаного стикера-здесь <END>
 
 /*media quaeries*/
 @media only screen and (max-width: 1280px)  {
