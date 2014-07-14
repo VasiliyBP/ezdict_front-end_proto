@@ -455,14 +455,15 @@ header{
 }
 // все, что касается ссаного стикера-здесь
 .sticker {
-  top:30px;
+  bottom:78%;
   right: 25%;
   position: absolute;
   z-index: 100000;
-  min-width: 200px;
-  height: 80px;
+  width: 200px;
   background:#109926;
+  padding-bottom: 25px;
   @include box-shadow(#003600 -3px 2px 0px);
+  @include box-sizing(border-box);
 
   &::after {
     content: '';
@@ -489,6 +490,15 @@ header{
     // -ms-filter: blur(0.3px); 
     // filter: blur(0.3px);
   }
+  i{
+    color:white;
+  }
+}
+.slide-down {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
 }
 .control-panel {
   position: absolute;
@@ -501,18 +511,28 @@ header{
 }
 .st-btn-wrap{
   cursor: pointer;
+
 }
 .st-btn{
-  width: 25px;
+  font-size: 18px;
+  width: 26px;
   height: 22px;
   background:#109926;
-  text-align: center;
   margin-bottom: 3px;
   font-family: 'times';
+  text-align: center;
   color: #fff;
   line-height: 22px;
   @include box-shadow(#003600 -1px 1px 1px);
   @include box-sizing(border-box);
+  @include user-select(none);
+}
+
+.st-btn:hover {
+  background-color: #88cc93;
+}
+.st-btn:active {
+  background-color: #003600;
 }
 .counter {
   overflow: hidden;
@@ -548,27 +568,27 @@ header{
 }
 
 .st-btn.edit {
-  background: #109926 url('../img/promo-nav.png') -50px -80px no-repeat;
+  //background: #109926 url('../img/promo-nav.png') -50px -80px no-repeat;
 }
 
 .st-btn.add-new {
-  background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
+  //background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
 }
 
 .st-btn.add-to-learning {
 
 }
 .st-btn.like-it {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .st-btn.close {
-  background: #109926 url('../img/promo-nav.png') 0px -80px no-repeat;
+  font-size: 14px;
+
+ // background: #109926 url('../img/promo-nav.png') 0px -80px no-repeat;
  }
 
-.st-btn:hover {
-  background-color: #88cc93;
-}
+
 .vrashi:hover .st-btn  {
   -webkit-animation: rotating 1s linear infinite;
   -moz-animation: rotating 1s linear infinite;
@@ -606,6 +626,55 @@ header{
     @include transform(rotateY(360deg));
  }
 }
+.sticker-source-wrap {
+  padding: 1px 0 0 3px;
+  font-size: 0;
+
+}
+.sticker-source-wrap > div {
+  display: inline-block;
+  color:white;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 2px;
+}
+.st-source {
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  line-height: 16px;
+  vertical-align:middle;
+  text-shadow: 0 0 0.5px white;
+  &:hover {
+    background:#80b480;
+  }
+  &:active {
+    background:#003600;
+  }
+}
+.st-source.best {
+  line-height: 14px;
+  font-size: 14px;
+}
+.st-source.active {
+  background:#003600;
+}
+.st-translate{
+  position: relative;
+  overflow: hidden;
+  color:white;
+  font-size: 14px;
+  margin: 5px 0 0 10px;
+  @include box-sizing(border-box);
+}
+.st-translate.small{
+  height:30px;
+}
+.st-translate.large {
+  height: 100%;
+}
+ 
+
 // все, что касается ссаного стикера-здесь <END>
 
 /*media quaeries*/
@@ -613,6 +682,7 @@ header{
 
   .promo-item {
     min-height: 250px;
+
   }
 }
 
