@@ -462,7 +462,7 @@ header{
   min-width: 200px;
   height: 80px;
   background:#109926;
-  @include box-shadow(#003600 -3px 2px 1px);
+  @include box-shadow(#003600 -3px 2px 0px);
 
   &::after {
     content: '';
@@ -483,39 +483,47 @@ header{
     margin-right:-11px ;
     border: 14px solid;
     border-color: #003600 transparent transparent transparent;
-   -webkit-filter: blur(0.3px); 
-  -moz-filter: blur(0.3px); 
-   -o-filter: blur(0.3px); 
-   -ms-filter: blur(0.3px); 
-   filter: blur(0.3px);
+    // -webkit-filter: blur(0.3px); 
+    // -moz-filter: blur(0.3px); 
+    // -o-filter: blur(0.3px); 
+    // -ms-filter: blur(0.3px); 
+    // filter: blur(0.3px);
   }
 }
-// .sticker-container{
-//   position: relative;
-// }
-.st-btn-wrap{
-  width: 25px;
-  height: 22px;
+.control-panel {
   position: absolute;
+}
+.control-panel.left {
   left: -33px;
+}
+.control-panel.right {
+  right: -33px;
+}
+.st-btn-wrap{
   cursor: pointer;
 }
 .st-btn{
-  position: absolute;
-  height: 100%;
-  width: 100%;
+  width: 25px;
+  height: 22px;
   background:#109926;
- @include box-shadow(#003600 -1px 1px 1px);
+  text-align: center;
+  margin-bottom: 3px;
+  font-family: 'times';
+  color: #fff;
+  line-height: 22px;
+  @include box-shadow(#003600 -1px 1px 1px);
+  @include box-sizing(border-box);
 }
-.st-btn.counter {
+.counter {
+  overflow: hidden;
+  position: absolute;
   width: 30px;
   height: 22px;
+  line-height: 22px;
+  text-align: center;
   background: #fff;
   top: -25px;
-  padding: 4px 0;
-  @include box-sizing(border-box);
   >p{
-    text-align: center;
     font-weight: 800;
     color: #20a034;
   }
@@ -538,37 +546,30 @@ header{
     color:white;
   }
 }
-.st-btn-wrap.edit {
-  .st-btn {
-    background: #109926 url('../img/promo-nav.png') -50px -80px no-repeat;
-  }
+
+.st-btn.edit {
+  background: #109926 url('../img/promo-nav.png') -50px -80px no-repeat;
 }
-.st-btn-wrap.add-new {
-  display: none;
-  .st-btn {
-    background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
-  }
+
+.st-btn.add-new {
+  background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
+}
+
+.st-btn.add-to-learning {
 
 }
-.st-btn-wrap.add-to-favorite {  
-  top: 24px;
-  .st-btn {
-    font-family: 'times';
-    color: #fff;
-    padding: 3px;
-    @include box-sizing(border-box);
-  }
+.st-btn.like-it {
+  font-size: 22px;
 }
-.st-btn-wrap.close {
-  top: 48px;
-  .st-btn {
-    background: #109926 url('../img/promo-nav.png') 0px -80px no-repeat;
-  }
-} 
-div.st-btn-wrap>.st-btn:hover {
+
+.st-btn.close {
+  background: #109926 url('../img/promo-nav.png') 0px -80px no-repeat;
+ }
+
+.st-btn:hover {
   background-color: #88cc93;
 }
-.st-btn-wrap.add-to-favorite:hover .st-btn  {
+.vrashi:hover .st-btn  {
   -webkit-animation: rotating 1s linear infinite;
   -moz-animation: rotating 1s linear infinite;
   -ms-animation: rotating 1s linear infinite;
