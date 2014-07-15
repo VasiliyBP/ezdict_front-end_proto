@@ -459,7 +459,7 @@ header{
   right: 25%;
   position: absolute;
   z-index: 100000;
-  width: 200px;
+  width: 220px;
   background:#109926;
   padding-bottom: 25px;
   @include box-shadow(#003600 -3px 2px 0px);
@@ -494,7 +494,7 @@ header{
     color:white;
   }
 }
-.slide-down {
+.slide-down-btn {
   cursor: pointer;
   position: absolute;
   bottom: 2px;
@@ -526,13 +526,12 @@ header{
   @include box-shadow(#003600 -1px 1px 1px);
   @include box-sizing(border-box);
   @include user-select(none);
-}
-
-.st-btn:hover {
-  background-color: #88cc93;
-}
-.st-btn:active {
-  background-color: #003600;
+  &:hover {
+    background-color: #88cc93;
+  }
+  &:active {
+    background-color: #003600;
+  }
 }
 .counter {
   overflow: hidden;
@@ -573,13 +572,16 @@ header{
 
 .st-btn.add-new {
   //background: #109926 url('../img/promo-nav.png') -75px -80px no-repeat;
+  display: none;
 }
 
 .st-btn.add-to-learning {
 
 }
 .st-btn.like-it {
-  font-size: 18px;
+  font-size: 17px;
+  display: none;
+
 }
 
 .st-btn.close {
@@ -646,11 +648,14 @@ header{
   vertical-align:middle;
   text-shadow: 0 0 0.5px white;
   &:hover {
-    background:#80b480;
+    background:#88cc93;
   }
   &:active {
     background:#003600;
   }
+}
+.st-source.ezdict{
+  font-size: 13px;
 }
 .st-source.best {
   line-height: 14px;
@@ -662,18 +667,21 @@ header{
 .st-translate{
   position: relative;
   overflow: hidden;
-  color:white;
+  color: white;
   font-size: 14px;
-  margin: 5px 0 0 10px;
+  margin: 5px 5px 0 5px;
+  padding: 0 5px 5px 0;
+  max-height: 30px;
+  @include transition(all 0.5s ease);
   @include box-sizing(border-box);
 }
-.st-translate.small{
-  height:30px;
-}
 .st-translate.large {
-  height: 100%;
+  max-height: 180px;
+  //overflow-y: auto;
 }
- 
+#ezdict-sticker, #best-sticker {
+  display: none;
+}
 
 // все, что касается ссаного стикера-здесь <END>
 
