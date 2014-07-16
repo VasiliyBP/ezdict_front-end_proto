@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('.st-translate').slimScroll({
 		distance: '5px',
 		height: '100%',
-		size: '4px'
+		size: '4px',
 	});
 	$('.pop-new-item').on('mouseenter', function(){
 			$(this).find('.item-annotation').stop().animate({'height':'100%'},'fast', function(){
@@ -44,6 +44,7 @@ $(document).ready(function(){
 	$('#close-sticker').on('click',function(){
 		$('.sticker').fadeOut();
 	});
+
 });
 
 

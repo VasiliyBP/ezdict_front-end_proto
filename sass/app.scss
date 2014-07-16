@@ -459,7 +459,7 @@ header{
   right: 25%;
   position: absolute;
   z-index: 100000;
-  width: 220px;
+  width: 200px;
   background:#109926;
   padding-bottom: 25px;
   @include box-shadow(#003600 -3px 2px 0px);
@@ -634,7 +634,7 @@ header{
  }
 }
 .sticker-source-wrap {
-  padding: 1px 0 0 3px;
+  padding: 3px 0 0 3px;
   font-size: 0;
 
 }
@@ -670,13 +670,12 @@ header{
   background:#003600;
 }
 .st-translate{
-  position: relative;
-  overflow: hidden;
   color: white;
   font-size: 14px;
-  margin: 5px 5px 0 5px;
+  margin: 8px 5px 0 5px;
   padding: 0 5px 5px 0;
-  max-height: 40px;
+  max-height: 30px;
+  line-height: 15px;
   @include transition(all 0.5s ease);
   @include box-sizing(border-box);
 }
