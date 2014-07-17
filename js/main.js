@@ -35,11 +35,14 @@ $(document).ready(function(){
 		$('.st-source-btn').removeClass('active');
 		$(this).addClass('active');
 		var index = $(this).index();
-		
-		$('.st-translate').animate({scrollTop:'0'},300).promise().done(function(){
-			$('.st-source-translate').stop().fadeOut();
-			$('.st-source-translate').eq(index).stop().fadeIn();
-		});	
+			
+		$('.st-source-translate').stop().fadeOut(200).promise().done(function() {
+			$('.st-translate').scrollTop(0);
+			$('.st-source-translate').eq(index).stop().fadeIn(200);
+		});
+		//$('.st-translate').animate({scrollTop:'0'},300).promise().done(function(){
+			
+		//});	
 		$('.sticker').find('.slimScrollBar').animate({'top':'0'},300);
 	
 		
