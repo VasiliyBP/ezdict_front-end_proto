@@ -35,10 +35,14 @@ $(document).ready(function(){
 		$('.st-source-btn').removeClass('active');
 		$(this).addClass('active');
 		var index = $(this).index();
-		$('.st-source-translate').stop().fadeOut();
-		$('.st-source-translate').eq(index).stop().fadeIn(400, function(){
-			$('.st-translate').scrollTop(0);
-		});
+		
+		$('.st-translate').animate({scrollTop:'0'},300).promise().done(function(){
+			$('.st-source-translate').stop().fadeOut();
+			$('.st-source-translate').eq(index).stop().fadeIn();
+		});	
+		$('.sticker').find('.slimScrollBar').animate({'top':'0'},300);
+	
+		
 	});
 
 	$('#close-sticker').on('click',function(){

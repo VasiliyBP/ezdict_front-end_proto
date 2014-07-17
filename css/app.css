@@ -1025,6 +1025,7 @@ header input:focus:-ms-input-placeholder {
 
 /* line 672, D:/work/ezdict_front-end_proto/sass/app.scss */
 .st-translate {
+  overflow: hidden;
   color: white;
   font-size: 14px;
   margin: 8px 5px 0 5px;
@@ -1040,47 +1041,47 @@ header input:focus:-ms-input-placeholder {
   box-sizing: border-box;
 }
 
-/* line 682, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 683, D:/work/ezdict_front-end_proto/sass/app.scss */
 .st-translate.large {
   max-height: 160px;
 }
 
-/* line 686, D:/work/ezdict_front-end_proto/sass/app.scss */
+/* line 687, D:/work/ezdict_front-end_proto/sass/app.scss */
 #ezdict-sticker, #best-sticker {
   display: none;
 }
 
 /*media quaeries*/
 @media only screen and (max-width: 1280px) {
-  /* line 695, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 696, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item {
     min-height: 250px;
   }
 }
 @media only screen and (max-width: 1024px) {
-  /* line 703, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 704, D:/work/ezdict_front-end_proto/sass/app.scss */
   .text-wrap {
     width: 95%;
   }
 
-  /* line 706, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 707, D:/work/ezdict_front-end_proto/sass/app.scss */
   header {
     width: 95%;
   }
 }
 @media only screen and (max-width: 992px) {
   /*promo*/
-  /* line 714, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 715, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.first {
     width: 48.6394557823%;
   }
 
-  /* line 718, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 719, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.second {
     width: 48.6394557823%;
   }
 
-  /* line 722, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 723, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.third {
     margin-top: 5px;
     width: 98.63945578231293%;
@@ -1091,74 +1092,74 @@ header input:focus:-ms-input-placeholder {
   /*news*/
 }
 @media only screen and (max-width: 768px) {
-  /* line 735, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 736, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.first {
     width: 98.63945578231293%;
     margin-top: 15px;
     min-height: 100%;
   }
 
-  /* line 740, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 741, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.second {
     width: 98.63945578231293%;
     margin-top: 5px;
     min-height: 100%;
   }
 
-  /* line 745, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 746, D:/work/ezdict_front-end_proto/sass/app.scss */
   .promo-item.third {
     margin-top: 5px;
     width: 98.63945578231293%;
     min-height: 100%;
   }
 
-  /* line 750, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 751, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-photo {
     text-align: center;
     width: 100%;
   }
 
-  /* line 754, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 755, D:/work/ezdict_front-end_proto/sass/app.scss */
   .author-text {
     width: 100%;
   }
 
-  /* line 757, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 758, D:/work/ezdict_front-end_proto/sass/app.scss */
   .logo-wrap {
     text-align: center;
     width: 100%;
   }
 
-  /* line 761, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 762, D:/work/ezdict_front-end_proto/sass/app.scss */
   .search-login-wrap {
     width: 100%;
   }
 
-  /* line 764, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 765, D:/work/ezdict_front-end_proto/sass/app.scss */
   .reg-btn {
     width: 100%;
   }
 
-  /* line 768, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 769, D:/work/ezdict_front-end_proto/sass/app.scss */
   .popular-new-content h3 {
     font-size: 18px;
   }
 
-  /* line 772, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 773, D:/work/ezdict_front-end_proto/sass/app.scss */
   .content-col {
     width: 98.63945578231293%;
   }
-  /* line 774, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 775, D:/work/ezdict_front-end_proto/sass/app.scss */
   .content-col img {
     width: 100%;
   }
 
-  /* line 778, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 779, D:/work/ezdict_front-end_proto/sass/app.scss */
   .news-col {
     width: 98.63945578231293%;
   }
 
-  /* line 782, D:/work/ezdict_front-end_proto/sass/app.scss */
+  /* line 783, D:/work/ezdict_front-end_proto/sass/app.scss */
   .news-item h3 {
     text-align: center;
   }
