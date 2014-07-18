@@ -494,14 +494,17 @@ header{
     color:white;
   }
 }
-.slide-down-btn, .slide-up-btn {
+.slide-down-btn {
   cursor: pointer;
   position: absolute;
   bottom: 2px;
   right: 5px;
+
 }
-.slide-up-btn {
-  display: none;
+.slide-down-btn.slide-up{
+ @include transform (rotate(180deg));
+ line-height: 19px;
+
 }
 .control-panel {
   position: absolute;
@@ -634,6 +637,7 @@ header{
  }
 }
 .sticker-source-wrap {
+  display: table; /*фикс для Safari*/
   padding: 3px 0 0 3px;
   font-size: 0;
 
