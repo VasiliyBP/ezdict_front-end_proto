@@ -383,17 +383,9 @@ header{
     font-weight: 500;
     line-height: 40px;
   }
-  &:hover>.item-annotation {
-    overflow-y: auto;
-    //height: 100%;
-   // @include transition(0.3s height ease); //100% при наведении на блок
-  }
-  &:hover .item-annotation>h4 {
+  &:hover .item-annotation-inner>h4 {
     display: none;
     line-height: 18px;
-  }
-  &:hover .item-description-wrap {
-    //display:table;                    // появление блока при наведении
   }
 }
 .item-annotation {
