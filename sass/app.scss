@@ -9,8 +9,8 @@ $col-header-color: #3d4f56;
 // width 
 $main-width: 1470px;
 
-html,body {
-  background: #e5eef2;
+body {
+	background: url('../img/header_pattern4.gif') center 80px ;
   font-family: sans-serif;
 }
 
@@ -27,6 +27,17 @@ h6 {font-size: 12px;}
 img{
   max-width: 100%;
 }
+
+.index-wrapp {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #e5eef2;
+	overflow-y: auto;
+}
+
 .login-logo-wrap{
   @include pie-clearfix;
 }
@@ -681,6 +692,10 @@ header{
 }
 #ezdict-sticker, #best-sticker {
   display: none;
+}
+
+.main-layout {
+	height: 3000px;
 }
 
 // все, что касается ссаного стикера-здесь <END>

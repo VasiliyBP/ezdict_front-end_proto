@@ -17,17 +17,16 @@ img{
   max-width: 100%;
 }
 .wrapp{
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	top: 0;
 	height: 100%;
 	background: url('../img/header_pattern4.gif') center center;
-	background-attachment: local;
-	
+	background-attachment: inherit;
 	overflow-y: auto;
 }
 .main-layout{
 
-
+	height: 3000px;
 }
