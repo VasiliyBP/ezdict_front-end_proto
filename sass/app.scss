@@ -32,7 +32,7 @@ img{
 }
 .header-pattern {
   @include pie-clearfix;
-  background: url('../img/header_pattern4.gif') center center;
+  background: url('../img/header_pattern4.gif') center center ;
   overflow: hidden;
 }
 
@@ -456,7 +456,6 @@ header{
   padding-bottom: 25px;
   @include box-shadow(#003600 -3px 2px 0px);
   @include box-sizing(border-box);
-
   &::after {
     content: '';
     position: absolute;
@@ -476,11 +475,6 @@ header{
     margin-right:-11px ;
     border: 14px solid;
     border-color: #003600 transparent transparent transparent;
-    // -webkit-filter: blur(0.3px); 
-    // -moz-filter: blur(0.3px); 
-    // -o-filter: blur(0.3px); 
-    // -ms-filter: blur(0.3px); 
-    // filter: blur(0.3px);
   }
   i{
     color:white;
@@ -489,14 +483,19 @@ header{
 .slide-down-btn {
   cursor: pointer;
   position: absolute;
-  bottom: 2px;
+  bottom: 5px;
   right: 5px;
-
+  font-size: 0;
+  &:hover{
+  @include box-shadow(0 0 10px white, 0 0 10px inset);
+  @include border-radius(15px);
+  }
+  >i{
+    font-size: 16px;
+  }
 }
 .slide-down-btn.slide-up{
  @include transform (rotate(180deg));
- line-height: 19px;
-
 }
 .control-panel {
   position: absolute;

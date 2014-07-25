@@ -1,0 +1,33 @@
+body {
+  
+  font-family: sans-serif;
+}
+
+b, strong {font-weight: 700;}
+i, em {font-style: italic;}
+h1,h2,h3,h4,h5 {font-weight: 700};
+h1 {font-size: 36px;}
+h2 {font-size: 30px;}
+h3 {font-size: 24px;}
+h4 {font-size: 18px;}
+h5 {font-size: 14px;}
+h6 {font-size: 12px;}
+
+img{
+  max-width: 100%;
+}
+.wrapp{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: url('../img/header_pattern4.gif') center center;
+	background-attachment: local;
+	
+	overflow-y: auto;
+}
+.main-layout{
+
+
+}
